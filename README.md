@@ -39,7 +39,7 @@ streamlit run app.py
 
 ### 4. Access the App
 
-Open your browser and navigate to the local URL provided by Streamlit (usually [http://localhost:8501](http://localhost:8501)).
+Open your browser and navigate to the local URL provided by Streamlit (usually [http://gall-bladder-dti-mach125857899765.streamlit.app](http://gall-bladder-dti-mach125857899765.streamlit.app)).
 
 ## File Structure
 
