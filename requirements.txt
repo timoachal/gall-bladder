@@ -2,5 +2,3 @@ streamlit
 streamlit-option-menu
 pandas
 numpy
-time
-scikit-learn
