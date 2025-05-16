@@ -45,11 +45,9 @@ Open your browser and navigate to the local URL provided by Streamlit (usually [
 
 ```
 .
-├── app.py                # Main Streamlit app
-├── model.py              # Machine learning model code
+├── gall app              # Main Streamlit app
 ├── requirements.txt      # Python dependencies
 ├── README.md             # This file
-└── data/                 # (Optional) Directory for datasets
 ```
 
 ## Example
