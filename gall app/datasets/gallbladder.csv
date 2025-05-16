@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,BMI,Ethnicity,Smoking_History,Alcohol_Consumption,Family_History,Diabetes,Gallstones,Abdominal_Pain,Jaundice,Weight_Loss,Tumor_Size,Lymph_Node_Involvement,Stage,CEA_Level,CA19-9_Level,Treatment_Type,Survival_Months,Outcome
+PID_1,68,Female,27.7,Hispanic,Yes,No,Yes,Yes,No,Yes,Yes,0.4,2.9,No,II,8.48,228.94,Chemotherapy,23,Deceased
+PID_2,81,Female,37.3,Asian,No,No,No,Yes,No,No,Yes,7.2,8.8,No,II,17.96,121.62,Chemotherapy,33,Deceased
+PID_3,58,Male,27.5,African,Yes,Yes,Yes,No,No,No,No,5.4,9.5,No,III,3.67,363.39,Chemotherapy,52,Deceased
+PID_4,44,Female,28.4,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,5.1,5.7,Yes,III,19.91,255.43,Chemotherapy,47,Deceased
+PID_5,72,Male,39.8,Caucasian,No,Yes,No,Yes,No,Yes,No,2.4,4.2,No,IV,2.82,506.69,Chemotherapy,18,Deceased
+PID_6,37,Female,18.5,Caucasian,No,No,Yes,No,Yes,No,No,7.4,3.1,Yes,I,0.79,966.41,Chemotherapy,54,Alive
+PID_7,50,Female,22.5,Asian,Yes,Yes,Yes,No,No,Yes,Yes,1.7,1.4,Yes,III,17.86,574.95,Chemotherapy,44,Alive
+PID_8,68,Female,26.8,Asian,No,Yes,Yes,Yes,Yes,No,No,1.9,3.4,No,III,5.28,889.93,Chemotherapy,33,Deceased
+PID_9,87,Female,38.6,Caucasian,No,No,Yes,Yes,Yes,Yes,Yes,4.6,6.9,No,IV,14.73,650.88,Radiation,7,Deceased
+PID_10,48,Female,20,Asian,Yes,No,Yes,No,No,No,No,2.9,5.8,Yes,I,16.31,475.25,Chemotherapy,51,Deceased
+PID_11,52,Male,18.7,Other,Yes,Yes,Yes,No,No,Yes,No,2.5,9.5,Yes,III,17.25,854.61,Chemotherapy,28,Deceased
+PID_12,40,Male,19.6,Other,No,No,No,No,Yes,No,Yes,6.5,4.6,No,IV,19.84,471.37,Radiation,1,Alive
+PID_13,40,Female,20.4,Asian,Yes,Yes,Yes,Yes,No,Yes,No,6.5,7.2,No,II,6.23,868.63,Radiation,56,Alive
+PID_14,53,Female,19.3,Caucasian,Yes,No,No,Yes,No,Yes,No,8.2,5.4,No,IV,14.35,291.58,Surgery,39,Alive
+PID_15,82,Male,28.8,Asian,No,Yes,No,Yes,Yes,Yes,Yes,4.2,5.6,Yes,I,2.75,128.81,Surgery,34,Deceased
+PID_16,65,Female,31,Asian,Yes,Yes,Yes,No,Yes,Yes,No,0.7,3.4,Yes,III,8.43,855.31,Chemotherapy,39,Alive
+PID_17,69,Female,24.3,Asian,Yes,Yes,No,No,Yes,Yes,No,2.7,5.1,No,IV,17.04,587.42,Chemotherapy,19,Alive
+PID_18,53,Male,27.1,African,Yes,Yes,No,No,Yes,Yes,Yes,9.8,5.2,Yes,III,7.67,889.09,Surgery,31,Deceased
+PID_19,32,Female,20.5,Other,Yes,No,Yes,Yes,No,Yes,Yes,6,7.4,Yes,II,12.03,937.83,Surgery,13,Deceased
+PID_20,51,Female,25.7,Hispanic,Yes,No,Yes,No,Yes,Yes,No,7.1,9.5,No,I,10.32,53.63,Palliative Care,57,Deceased
+PID_21,82,Male,29.7,Hispanic,No,No,Yes,Yes,Yes,No,No,0.1,4,Yes,IV,13.1,500.97,Palliative Care,24,Deceased
+PID_22,31,Male,34.2,African,No,No,No,No,Yes,Yes,No,5.2,1.4,No,II,19.47,374.96,Chemotherapy,5,Deceased
+PID_23,53,Male,18.6,Asian,Yes,Yes,No,Yes,No,Yes,Yes,0.4,5.5,No,I,1.59,625.86,Palliative Care,23,Deceased
+PID_24,73,Female,28.5,African,No,Yes,Yes,Yes,Yes,No,No,5.7,5.9,Yes,III,11.69,793.59,Surgery,19,Deceased
+PID_25,59,Male,24.9,African,Yes,No,Yes,No,No,Yes,No,9.2,2.5,Yes,II,17.33,280.59,Chemotherapy,1,Alive
+PID_26,67,Male,36.8,Caucasian,Yes,No,No,Yes,Yes,No,No,9.7,7.8,No,I,9.89,556.8,Radiation,33,Alive
+PID_27,31,Male,33.9,Other,Yes,No,No,No,Yes,Yes,No,5.4,9.9,Yes,II,2.03,708.73,Radiation,59,Alive
+PID_28,89,Male,31.2,Hispanic,Yes,No,No,Yes,No,No,No,4.6,9.5,No,I,11.43,134.43,Surgery,50,Alive
+PID_29,50,Male,24.5,Asian,Yes,No,No,No,Yes,No,No,9.5,2.8,Yes,III,6.98,814.07,Palliative Care,56,Deceased
+PID_30,62,Male,38.1,Hispanic,No,Yes,Yes,No,Yes,Yes,Yes,6.7,8.9,Yes,III,3.52,606.11,Radiation,33,Alive
+PID_31,41,Female,19.5,Hispanic,No,Yes,No,Yes,No,No,Yes,0.6,7.3,Yes,III,17.06,949.54,Palliative Care,32,Deceased
+PID_32,87,Female,20.9,Other,Yes,Yes,No,No,Yes,Yes,No,4.7,5.1,No,IV,10.67,339.53,Radiation,59,Alive
+PID_33,51,Male,26.9,Hispanic,No,No,No,Yes,Yes,Yes,No,2.4,5.9,Yes,IV,18.7,108.15,Palliative Care,28,Deceased
+PID_34,73,Male,21.2,Hispanic,Yes,No,No,No,Yes,Yes,Yes,4.7,8.6,No,III,16.22,506.5,Radiation,37,Deceased
+PID_35,54,Male,39.1,African,No,No,Yes,No,Yes,Yes,Yes,4.6,5.3,No,I,14.01,85.81,Radiation,41,Deceased
+PID_36,78,Female,35.7,Other,Yes,No,Yes,No,No,No,Yes,5.8,4.4,No,III,0.6,969.53,Chemotherapy,12,Deceased
+PID_37,56,Female,24.1,Caucasian,No,Yes,No,No,Yes,Yes,No,3.6,5.4,Yes,II,8.84,38.68,Chemotherapy,9,Alive
+PID_38,88,Female,31.2,Asian,Yes,Yes,No,Yes,No,No,No,1.6,6.2,No,III,4.35,753.5,Surgery,50,Deceased
+PID_39,71,Female,39.6,Hispanic,Yes,No,Yes,No,Yes,No,No,5,2.7,No,III,18.26,525.1,Radiation,55,Alive
+PID_40,57,Female,37.5,Asian,No,Yes,Yes,No,No,Yes,No,8.3,9.1,Yes,II,3.9,368.62,Palliative Care,11,Deceased
+PID_41,89,Female,31.4,Caucasian,No,Yes,No,Yes,Yes,Yes,Yes,6.6,7.1,No,IV,6.08,65.84,Radiation,33,Deceased
+PID_42,45,Female,37.9,Asian,Yes,No,No,Yes,No,Yes,Yes,3.4,6.7,No,I,10.58,622.17,Palliative Care,19,Alive
+PID_43,44,Female,39.8,Caucasian,No,No,Yes,Yes,Yes,Yes,Yes,9.4,1.9,Yes,III,5.64,585.22,Palliative Care,54,Deceased
+PID_44,76,Female,34.5,African,Yes,No,Yes,Yes,No,No,Yes,9.1,6.4,No,I,4.59,280.88,Radiation,57,Alive
+PID_45,80,Male,19.9,Hispanic,No,No,Yes,Yes,No,Yes,No,2.1,2.1,Yes,IV,12.18,910.22,Palliative Care,42,Deceased
+PID_46,73,Male,27.1,Caucasian,No,No,Yes,Yes,Yes,No,No,0.4,1.7,No,I,2.23,304.11,Surgery,34,Deceased
+PID_47,84,Male,36.5,Asian,Yes,No,Yes,No,No,Yes,Yes,7.4,5.7,No,I,1.63,449.73,Chemotherapy,7,Deceased
+PID_48,81,Male,23.5,Hispanic,No,Yes,Yes,Yes,Yes,Yes,Yes,8.3,4.6,Yes,II,7.76,543.76,Palliative Care,31,Deceased
+PID_49,86,Female,36.4,African,No,Yes,No,No,Yes,Yes,Yes,9.7,6.3,No,II,14.55,100.23,Radiation,52,Deceased
+PID_50,32,Female,21.1,Hispanic,Yes,No,Yes,Yes,Yes,Yes,Yes,8.9,1.8,No,II,11.32,932.16,Chemotherapy,2,Deceased
+PID_51,66,Male,19.5,Caucasian,No,Yes,Yes,No,Yes,No,Yes,6,4.9,No,III,8.75,374.54,Surgery,19,Alive
+PID_52,80,Female,26.8,African,Yes,No,Yes,No,Yes,No,No,5.3,2.6,Yes,II,11.53,80.78,Palliative Care,38,Deceased
+PID_53,36,Male,19.3,Asian,Yes,No,Yes,No,No,Yes,No,0.3,9.9,Yes,I,7.63,387.29,Palliative Care,32,Deceased
+PID_54,50,Female,39.1,African,Yes,No,No,Yes,Yes,No,Yes,2.5,6.1,Yes,II,18.75,600.2,Chemotherapy,10,Alive
+PID_55,38,Male,36.3,African,Yes,No,No,Yes,Yes,No,Yes,4.6,7.2,Yes,IV,1.57,513.65,Palliative Care,41,Alive
+PID_56,68,Female,35.7,Other,Yes,Yes,Yes,Yes,Yes,Yes,Yes,6.3,3.9,Yes,III,13.63,694.54,Radiation,8,Alive
+PID_57,47,Female,32,African,No,No,No,Yes,Yes,Yes,No,5.6,1.9,No,III,17.88,55.48,Chemotherapy,26,Deceased
+PID_58,33,Male,23.2,African,Yes,Yes,No,No,Yes,No,No,7.4,9.8,Yes,III,16.18,284.54,Chemotherapy,30,Deceased
+PID_59,54,Female,29.6,Hispanic,Yes,No,No,Yes,Yes,No,No,2.8,3.6,Yes,II,4.09,819.23,Palliative Care,11,Deceased
+PID_60,89,Male,31.3,Asian,No,No,No,No,No,No,Yes,5.6,4.8,Yes,I,6.27,79.89,Surgery,41,Deceased
+PID_61,43,Male,29.8,Hispanic,No,No,No,No,No,No,No,0.9,6.8,No,II,14.48,855.49,Surgery,20,Alive
+PID_62,79,Male,24.1,Hispanic,No,Yes,No,Yes,Yes,Yes,Yes,4.1,1.2,No,IV,2.14,91.9,Surgery,20,Alive
+PID_63,87,Male,29.6,Caucasian,Yes,No,Yes,Yes,No,Yes,No,7.5,8.3,Yes,IV,16.33,834.45,Surgery,9,Alive
+PID_64,38,Female,29.1,Hispanic,Yes,No,Yes,Yes,Yes,No,No,6.9,5.8,No,II,14.52,360.79,Chemotherapy,8,Deceased
+PID_65,55,Female,39.9,Other,Yes,No,Yes,No,Yes,Yes,No,9.9,3.5,No,I,14.73,612.21,Chemotherapy,15,Alive
+PID_66,82,Female,37.8,Other,No,Yes,Yes,Yes,Yes,No,Yes,2.8,1.6,No,I,2.45,152.89,Palliative Care,34,Deceased
+PID_67,31,Male,28.5,Caucasian,Yes,Yes,Yes,No,Yes,No,Yes,5,2.5,No,II,14.5,66.17,Surgery,24,Deceased
+PID_68,49,Female,31.9,Asian,No,Yes,No,Yes,Yes,Yes,No,3.3,9.1,Yes,III,13.76,215.94,Surgery,33,Deceased
+PID_69,57,Male,34.6,Asian,Yes,No,Yes,No,No,No,Yes,4.4,7.2,Yes,I,16.7,127.85,Palliative Care,41,Deceased
+PID_70,76,Female,19.2,Hispanic,No,Yes,Yes,Yes,No,No,Yes,8.6,3.2,No,IV,1.31,312.41,Palliative Care,41,Deceased
+PID_71,89,Female,37.7,Hispanic,Yes,No,No,Yes,No,Yes,Yes,6.8,1.6,No,II,0.95,514.38,Palliative Care,45,Alive
+PID_72,36,Female,37,Hispanic,Yes,Yes,No,No,No,Yes,Yes,8.8,7.2,No,IV,7.77,588.76,Radiation,40,Alive
+PID_73,73,Male,28.3,Asian,Yes,Yes,Yes,Yes,Yes,No,Yes,2,6.2,No,III,3.4,789.87,Palliative Care,27,Deceased
+PID_74,37,Female,26.9,African,No,No,No,Yes,No,No,Yes,8.7,4.6,Yes,III,11.39,656.24,Palliative Care,21,Deceased
+PID_75,76,Female,24.4,Other,No,Yes,No,Yes,Yes,Yes,Yes,0.6,4.3,No,III,18.39,608.76,Radiation,5,Deceased
+PID_76,64,Male,28.7,African,Yes,No,No,Yes,No,No,No,8.9,3,Yes,III,8.13,411.78,Surgery,35,Alive
+PID_77,43,Female,19.5,African,Yes,No,No,Yes,No,No,Yes,3.3,7,No,III,16.98,473.81,Chemotherapy,21,Deceased
+PID_78,46,Male,36.8,Asian,Yes,Yes,Yes,Yes,No,Yes,Yes,3.1,9.7,Yes,III,0.5,414.52,Surgery,4,Alive
+PID_79,65,Female,19.3,African,No,No,No,Yes,No,Yes,No,5.1,2.6,No,III,3.79,842.17,Chemotherapy,49,Alive
+PID_80,79,Male,25.6,Caucasian,Yes,No,Yes,No,Yes,Yes,No,9.4,6.4,Yes,IV,1.09,230,Chemotherapy,48,Alive
+PID_81,69,Male,38.5,Hispanic,Yes,Yes,Yes,No,No,Yes,No,0.5,4.8,Yes,III,6.9,5.72,Palliative Care,16,Deceased
+PID_82,33,Female,34.3,Caucasian,Yes,Yes,No,Yes,No,Yes,No,3.5,5,Yes,III,18.21,651.32,Palliative Care,57,Alive
+PID_83,31,Male,24.5,Other,Yes,No,No,Yes,Yes,Yes,Yes,8.6,3.3,No,IV,2.39,202.46,Radiation,31,Alive
+PID_84,35,Male,23.9,Hispanic,No,Yes,No,Yes,Yes,No,No,4,8.4,Yes,II,12.32,890.12,Surgery,26,Deceased
+PID_85,83,Male,18.6,African,No,No,Yes,No,No,No,No,2,5.4,No,I,9.3,859.05,Surgery,52,Deceased
+PID_86,71,Male,33.5,Other,Yes,No,No,No,Yes,Yes,Yes,4.2,5.9,Yes,II,18.8,76.73,Chemotherapy,35,Deceased
+PID_87,33,Male,19.5,Hispanic,Yes,Yes,No,Yes,Yes,Yes,Yes,3.9,3.7,Yes,III,2.89,106.39,Palliative Care,6,Deceased
+PID_88,83,Male,30,African,No,Yes,No,No,Yes,No,Yes,9.2,2.6,No,IV,4.63,495.17,Palliative Care,33,Deceased
+PID_89,58,Female,39.2,Caucasian,No,Yes,No,Yes,No,No,No,7.6,1.8,Yes,II,1.08,609.22,Surgery,21,Alive
+PID_90,47,Male,20.9,Hispanic,Yes,Yes,No,Yes,Yes,No,Yes,5.1,7.4,No,III,8.96,274.91,Radiation,16,Alive
+PID_91,55,Male,37.7,African,No,No,Yes,Yes,No,Yes,No,9.9,2.8,No,III,5.92,716.8,Palliative Care,47,Deceased
+PID_92,73,Female,39.8,Caucasian,No,No,No,Yes,No,Yes,Yes,4.7,7.2,No,I,17.46,594.92,Radiation,39,Alive
+PID_93,63,Female,19.8,Other,Yes,Yes,No,No,No,No,Yes,0.6,4.5,No,III,12.3,324.82,Surgery,34,Deceased
+PID_94,39,Female,37.5,Other,No,Yes,No,No,No,Yes,No,2.6,4.7,Yes,IV,12.47,25.37,Surgery,42,Deceased
+PID_95,65,Female,29.6,Other,No,No,Yes,Yes,Yes,Yes,Yes,4.4,5.2,Yes,I,10.87,750.15,Radiation,57,Deceased
+PID_96,43,Female,38,Other,Yes,No,No,No,No,Yes,Yes,1.6,4.3,No,III,2.29,214.75,Palliative Care,15,Deceased
+PID_97,60,Female,30.8,Asian,Yes,No,Yes,No,Yes,No,Yes,9.5,1.9,Yes,III,9.18,834.47,Surgery,6,Deceased
+PID_98,77,Female,32.7,Hispanic,No,No,Yes,Yes,No,No,Yes,7.7,3.8,Yes,I,19.99,420.29,Chemotherapy,2,Alive
+PID_99,44,Male,30.2,Hispanic,Yes,Yes,No,No,Yes,Yes,Yes,2.7,7,No,I,16.79,577.08,Surgery,24,Deceased
+PID_100,37,Male,37.1,Asian,No,No,No,Yes,No,Yes,No,5.9,7,Yes,IV,17.92,872.95,Palliative Care,56,Alive
+PID_101,43,Female,34.3,African,Yes,No,No,Yes,Yes,Yes,No,7.2,3.6,No,II,16.55,863.62,Chemotherapy,49,Deceased
+PID_102,52,Male,29.7,African,No,Yes,Yes,Yes,No,Yes,Yes,9.4,5.1,Yes,II,2.51,371.52,Surgery,28,Deceased
+PID_103,89,Male,37.2,Other,Yes,No,Yes,Yes,No,Yes,No,8.8,2.7,Yes,I,4.94,208.89,Palliative Care,1,Alive
+PID_104,86,Male,23.8,Caucasian,No,No,Yes,No,Yes,No,No,5.2,2.9,No,III,0.56,775.15,Palliative Care,1,Deceased
+PID_105,69,Female,21.9,African,No,Yes,Yes,Yes,No,Yes,No,7.7,1.2,Yes,III,6.42,433.08,Surgery,28,Alive
+PID_106,50,Female,21.9,Caucasian,No,Yes,Yes,No,No,Yes,Yes,5.6,9.1,Yes,III,2.62,192.04,Palliative Care,36,Alive
+PID_107,45,Male,25.7,Hispanic,Yes,Yes,Yes,Yes,No,Yes,Yes,5.5,2.9,No,I,9.72,904.43,Radiation,20,Deceased
+PID_108,74,Female,23.6,Caucasian,Yes,No,No,Yes,Yes,No,Yes,1.1,3,Yes,IV,13.7,198.1,Chemotherapy,48,Alive
+PID_109,47,Male,38.5,Hispanic,No,No,No,No,No,No,No,1.3,3.5,No,II,17.55,25.81,Radiation,8,Alive
+PID_110,76,Male,20.8,Asian,No,Yes,Yes,Yes,No,Yes,No,5.3,2.1,Yes,II,15.11,20.28,Surgery,1,Deceased
+PID_111,82,Male,33.5,Asian,Yes,Yes,No,No,Yes,No,Yes,2.7,6.8,No,II,18.8,622.32,Radiation,26,Deceased
+PID_112,53,Male,22.6,Other,Yes,No,No,No,Yes,No,Yes,0.2,1.7,No,II,1.55,661.68,Surgery,51,Alive
+PID_113,55,Female,37.5,African,Yes,Yes,Yes,Yes,Yes,No,No,7.2,2.2,No,IV,0.74,311.04,Surgery,43,Alive
+PID_114,54,Female,39.2,Other,Yes,Yes,Yes,Yes,Yes,No,No,0.3,6.8,No,IV,13.4,320.01,Palliative Care,49,Deceased
+PID_115,89,Female,28.5,Hispanic,Yes,Yes,No,Yes,Yes,No,Yes,6,4.1,No,II,6.14,339.49,Palliative Care,25,Alive
+PID_116,89,Male,37.4,Other,Yes,No,Yes,Yes,No,No,No,5.4,7.4,Yes,IV,5.44,680.16,Surgery,10,Alive
+PID_117,89,Female,18.6,Caucasian,No,No,Yes,Yes,No,Yes,No,9.7,6,Yes,III,6.95,58.13,Chemotherapy,12,Deceased
+PID_118,74,Male,36.1,Hispanic,Yes,No,No,Yes,No,No,No,4.8,3.3,No,IV,5.76,929.12,Chemotherapy,41,Deceased
+PID_119,70,Female,23.4,Asian,No,No,Yes,No,Yes,No,No,0.6,6.9,Yes,II,10.47,222.52,Chemotherapy,7,Deceased
+PID_120,58,Male,38,African,Yes,No,No,No,No,Yes,No,5.5,2,No,III,9.08,999.67,Radiation,12,Alive
+PID_121,44,Male,18.5,Hispanic,Yes,No,No,Yes,Yes,Yes,No,8.4,5.8,Yes,II,10.49,171.52,Surgery,47,Deceased
+PID_122,74,Male,30.5,Hispanic,No,Yes,No,No,Yes,Yes,No,10,4.9,Yes,IV,13.62,771.55,Palliative Care,40,Deceased
+PID_123,30,Female,34.8,Caucasian,No,No,No,No,No,Yes,Yes,4.3,3.4,No,I,8.05,223.41,Radiation,17,Alive
+PID_124,54,Female,24.1,African,Yes,No,No,Yes,Yes,No,Yes,3.2,6.4,No,III,5.4,80.85,Radiation,5,Alive
+PID_125,36,Female,22.7,Asian,No,Yes,Yes,Yes,Yes,No,No,9.1,8.8,Yes,II,3.74,874.93,Palliative Care,14,Deceased
+PID_126,38,Female,20.3,Hispanic,No,No,Yes,No,No,No,No,1.9,10,Yes,II,7.31,858.75,Surgery,34,Deceased
+PID_127,53,Male,25.5,Hispanic,No,No,Yes,Yes,Yes,No,No,6.2,6.5,No,III,14.97,403.57,Radiation,48,Deceased
+PID_128,30,Female,30.5,Caucasian,No,Yes,Yes,No,Yes,Yes,Yes,4.1,4.6,Yes,IV,15.26,702.4,Surgery,17,Deceased
+PID_129,73,Female,21,Other,Yes,Yes,No,Yes,No,No,Yes,0.4,3,Yes,III,13.5,557.07,Surgery,35,Deceased
+PID_130,37,Male,26.6,Asian,No,Yes,No,No,Yes,No,No,3.5,3.3,No,IV,5.06,852.96,Surgery,55,Deceased
+PID_131,53,Male,18.7,African,Yes,No,Yes,No,Yes,Yes,Yes,2.7,5.3,Yes,II,11.97,315.06,Palliative Care,1,Alive
+PID_132,40,Male,36.1,Hispanic,Yes,Yes,No,No,No,No,No,6.9,4.3,No,III,11.63,523.67,Surgery,59,Alive
+PID_133,80,Female,21.3,Hispanic,Yes,No,Yes,No,No,No,No,9.5,9.2,No,II,9.94,485.37,Radiation,50,Deceased
+PID_134,46,Male,24.6,Asian,Yes,No,Yes,Yes,No,No,No,2.7,4.3,No,I,11.22,353.91,Palliative Care,50,Deceased
+PID_135,37,Male,18.9,Other,No,No,Yes,Yes,No,No,No,8.1,4.4,Yes,III,10.09,891.46,Palliative Care,36,Deceased
+PID_136,64,Male,27.8,Hispanic,No,No,No,No,Yes,Yes,No,0.6,4.5,Yes,III,11.53,165.88,Radiation,15,Deceased
+PID_137,64,Female,36.6,Asian,Yes,Yes,No,No,Yes,Yes,No,5.4,8.5,No,III,14.45,149.51,Palliative Care,19,Deceased
+PID_138,62,Male,26.9,Caucasian,Yes,Yes,No,Yes,No,Yes,No,0.7,6.9,No,III,2.64,576.91,Radiation,51,Alive
+PID_139,88,Female,22.4,Other,Yes,No,No,Yes,Yes,Yes,Yes,9.3,6.5,Yes,III,15.12,657.49,Chemotherapy,42,Deceased
+PID_140,34,Female,34.7,African,Yes,Yes,Yes,No,Yes,Yes,No,7.7,4,Yes,I,3.15,194.62,Radiation,5,Deceased
+PID_141,71,Male,35.5,Hispanic,No,No,No,No,No,No,Yes,6.6,8.4,Yes,I,1.8,390.72,Palliative Care,19,Alive
+PID_142,68,Male,22.2,Asian,Yes,No,No,No,No,No,No,8.2,1.3,No,III,19.53,946.56,Radiation,43,Alive
+PID_143,87,Female,35.1,Caucasian,No,No,No,No,Yes,Yes,No,6.5,8.8,No,II,19.16,246.62,Chemotherapy,39,Deceased
+PID_144,70,Male,38.9,African,Yes,Yes,Yes,No,No,Yes,Yes,9.7,5.6,Yes,I,1.68,668.36,Surgery,5,Deceased
+PID_145,57,Male,22.1,Asian,Yes,No,Yes,Yes,No,Yes,Yes,7.1,4.6,Yes,II,9.14,740.15,Surgery,52,Alive
+PID_146,36,Female,35.1,Asian,Yes,No,No,No,No,No,No,9.2,5.5,Yes,III,4.13,448.13,Surgery,12,Alive
+PID_147,38,Female,33.7,African,Yes,Yes,No,Yes,Yes,Yes,Yes,5.2,7,No,II,9.96,937.53,Palliative Care,19,Deceased
+PID_148,37,Male,28.7,Caucasian,No,Yes,No,Yes,No,No,No,1.2,1.1,No,III,16.69,736.66,Chemotherapy,47,Deceased
+PID_149,41,Female,19.7,Caucasian,No,Yes,No,Yes,Yes,No,No,5.3,8.8,Yes,III,19.04,457.92,Radiation,12,Deceased
+PID_150,63,Male,20.1,Other,No,Yes,Yes,No,Yes,No,Yes,1.3,5,Yes,II,12.87,569.34,Radiation,36,Deceased
+PID_151,62,Male,36.8,Hispanic,Yes,No,No,Yes,Yes,No,Yes,5.9,4.1,No,III,7.4,692.61,Radiation,12,Deceased
+PID_152,77,Male,39.8,African,Yes,Yes,No,Yes,No,Yes,Yes,4.8,2.2,No,III,12.26,592.19,Radiation,18,Alive
+PID_153,84,Female,33,African,No,No,No,Yes,No,No,Yes,6.2,5,Yes,III,6.58,878.7,Palliative Care,49,Deceased
+PID_154,52,Male,28.1,African,No,Yes,Yes,Yes,No,No,No,0.1,5.5,Yes,III,18.24,356.89,Palliative Care,51,Alive
+PID_155,53,Male,32.4,Caucasian,Yes,Yes,Yes,No,No,Yes,Yes,1.9,4.6,Yes,I,17.47,299.89,Chemotherapy,48,Deceased
+PID_156,66,Male,31.3,Hispanic,Yes,Yes,No,No,No,No,Yes,4.9,7.1,No,III,11.39,213.84,Radiation,43,Alive
+PID_157,64,Female,26.7,Other,No,Yes,No,Yes,Yes,No,Yes,9.5,4.8,Yes,II,6.83,37.78,Surgery,34,Deceased
+PID_158,73,Female,19.9,Asian,Yes,Yes,No,Yes,Yes,No,Yes,3.8,9.7,No,IV,6.22,43.01,Palliative Care,48,Alive
+PID_159,69,Female,36.2,Asian,Yes,Yes,No,No,Yes,Yes,Yes,4.2,6.4,No,IV,1.15,870.06,Chemotherapy,33,Deceased
+PID_160,51,Female,26.5,African,No,No,No,No,No,No,No,7.1,8.3,Yes,III,16.41,678.39,Chemotherapy,49,Alive
+PID_161,56,Female,36.1,Hispanic,Yes,Yes,Yes,No,Yes,No,No,6,2,Yes,II,9.28,660.53,Palliative Care,18,Alive
+PID_162,64,Male,23.9,Caucasian,No,Yes,Yes,Yes,Yes,Yes,Yes,3,4.6,No,II,6.84,614.64,Surgery,57,Alive
+PID_163,30,Female,18.5,Hispanic,Yes,Yes,Yes,No,No,Yes,Yes,4.1,4,Yes,II,9.69,849.22,Surgery,29,Deceased
+PID_164,64,Female,21.9,Hispanic,No,Yes,No,Yes,No,No,No,2.2,6.1,No,II,16.47,480.27,Radiation,45,Alive
+PID_165,66,Female,28.6,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,9.7,8.8,Yes,II,2.93,870.41,Palliative Care,5,Deceased
+PID_166,76,Male,38.8,African,No,Yes,Yes,No,Yes,Yes,No,1.3,1.7,Yes,III,17.22,359.45,Surgery,25,Deceased
+PID_167,43,Female,20.7,Hispanic,No,Yes,Yes,Yes,No,No,No,3.7,1.7,Yes,I,18,926.71,Palliative Care,24,Deceased
+PID_168,32,Female,36.9,Asian,No,Yes,No,No,No,Yes,Yes,0.3,8.7,Yes,IV,18.96,698.66,Chemotherapy,29,Deceased
+PID_169,30,Male,29.8,Caucasian,No,Yes,No,Yes,No,No,No,2.2,2.9,No,I,8.25,257.18,Chemotherapy,59,Deceased
+PID_170,34,Female,36.3,Other,Yes,No,Yes,No,No,Yes,Yes,7.8,7,No,IV,4.73,564.08,Chemotherapy,38,Alive
+PID_171,55,Male,24.9,African,Yes,Yes,No,Yes,Yes,No,Yes,2,5.9,No,IV,7.79,533.03,Palliative Care,33,Alive
+PID_172,84,Male,36.6,Caucasian,No,No,Yes,Yes,Yes,Yes,No,0.8,8.5,Yes,III,6.99,137.9,Radiation,10,Deceased
+PID_173,43,Male,35.1,Other,Yes,Yes,Yes,No,No,Yes,No,4.7,2.1,No,III,3.94,591.24,Radiation,37,Alive
+PID_174,68,Male,23.4,Other,Yes,No,Yes,No,Yes,Yes,Yes,0.1,2.2,No,II,12.34,314.79,Surgery,33,Deceased
+PID_175,56,Male,21.3,Hispanic,Yes,No,Yes,No,Yes,Yes,No,0.8,6,No,III,9.79,52.35,Palliative Care,23,Alive
+PID_176,38,Female,37.2,Hispanic,Yes,Yes,No,No,No,Yes,Yes,8.1,9.5,Yes,II,17.38,948.66,Radiation,58,Deceased
+PID_177,44,Male,39.2,Hispanic,Yes,Yes,No,Yes,Yes,No,No,7.7,4.7,No,II,1.13,641.49,Palliative Care,11,Alive
+PID_178,44,Male,19.2,Caucasian,No,No,No,No,Yes,No,No,9.2,3.9,Yes,III,13.06,876.92,Radiation,24,Deceased
+PID_179,55,Female,34.2,Caucasian,No,No,No,No,Yes,Yes,Yes,8.5,6.5,Yes,II,15.38,676.06,Chemotherapy,24,Deceased
+PID_180,71,Male,38.1,African,No,Yes,Yes,Yes,No,No,Yes,6.8,9.4,No,III,15.31,356.98,Chemotherapy,7,Alive
+PID_181,89,Female,36.9,Hispanic,No,No,No,No,No,No,Yes,0.5,8.5,Yes,II,17.78,512.69,Surgery,50,Alive
+PID_182,42,Female,39.2,Other,Yes,No,Yes,No,Yes,No,No,7.8,10,No,II,14.72,675.75,Chemotherapy,21,Alive
+PID_183,80,Female,34.8,Asian,Yes,No,No,Yes,No,No,Yes,8.5,1.2,No,I,18.59,960.25,Radiation,20,Deceased
+PID_184,61,Male,28,African,No,Yes,No,No,No,No,Yes,8,2,No,I,6.99,253.67,Surgery,53,Alive
+PID_185,68,Male,25.2,Caucasian,Yes,No,No,No,No,No,No,5.1,6.5,No,II,10.31,874.98,Surgery,10,Alive
+PID_186,78,Male,25.4,African,Yes,No,Yes,No,Yes,Yes,No,2.3,8.4,No,I,0.77,924.08,Chemotherapy,25,Deceased
+PID_187,81,Female,34.1,African,No,No,Yes,No,Yes,No,Yes,8.5,3.6,Yes,I,0.64,670.42,Palliative Care,47,Deceased
+PID_188,61,Male,34.5,African,Yes,Yes,Yes,No,No,No,Yes,7.3,3.2,No,IV,5.18,931.27,Chemotherapy,36,Alive
+PID_189,33,Male,22.8,African,No,Yes,Yes,No,Yes,No,Yes,9.8,8.1,Yes,I,2.47,397.88,Chemotherapy,48,Alive
+PID_190,59,Male,37.2,Asian,No,No,No,Yes,Yes,Yes,Yes,1.6,1.5,No,III,5.57,953.02,Surgery,47,Deceased
+PID_191,66,Female,33.9,Hispanic,Yes,Yes,Yes,No,Yes,No,No,2.3,4.3,No,II,3.95,702.78,Chemotherapy,15,Deceased
+PID_192,52,Female,30.6,Other,Yes,No,Yes,Yes,Yes,No,No,2.1,5.6,No,IV,1.06,42.01,Radiation,44,Alive
+PID_193,68,Male,28.6,African,No,Yes,No,Yes,Yes,No,Yes,7.9,6,Yes,II,18.23,906.87,Surgery,40,Deceased
+PID_194,74,Male,30.2,African,No,Yes,No,Yes,No,Yes,Yes,1.9,7.6,Yes,II,0.66,484.47,Chemotherapy,40,Alive
+PID_195,44,Male,21.9,African,Yes,No,Yes,Yes,Yes,No,Yes,0.7,4.2,Yes,III,14.85,460.33,Palliative Care,50,Alive
+PID_196,72,Male,22.9,Hispanic,No,Yes,No,No,Yes,Yes,No,10,6.5,Yes,II,3.47,566.47,Radiation,6,Deceased
+PID_197,58,Female,20.5,Caucasian,No,Yes,Yes,No,Yes,No,Yes,0.2,6.3,No,III,18.29,149.38,Palliative Care,37,Alive
+PID_198,65,Female,21.8,Caucasian,No,Yes,No,No,No,Yes,Yes,8.4,5.9,No,I,17.91,469.17,Radiation,2,Deceased
+PID_199,42,Female,28.3,Asian,Yes,No,Yes,Yes,No,Yes,No,3.7,6.8,Yes,IV,13.25,831.13,Palliative Care,12,Deceased
+PID_200,61,Female,29.9,Caucasian,No,Yes,Yes,No,No,Yes,No,8.4,3.3,Yes,II,13.61,15.48,Chemotherapy,58,Deceased
+PID_201,36,Male,18.9,African,Yes,Yes,Yes,No,Yes,No,Yes,5.5,1.8,Yes,II,0.6,272.92,Radiation,4,Alive
+PID_202,88,Male,35.6,African,No,No,Yes,No,No,Yes,Yes,9,2.1,No,III,19.7,2.45,Surgery,23,Alive
+PID_203,80,Male,24.8,African,Yes,Yes,Yes,Yes,No,Yes,No,9.3,3,Yes,II,17.62,415.71,Surgery,13,Deceased
+PID_204,51,Female,38.1,Asian,No,Yes,No,Yes,No,Yes,Yes,0.1,5.5,Yes,IV,17.95,728.32,Palliative Care,17,Alive
+PID_205,57,Male,39.3,African,Yes,Yes,Yes,No,No,Yes,Yes,0.8,8.6,No,II,13.36,798.77,Palliative Care,31,Deceased
+PID_206,31,Female,22.5,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,2.5,7.3,Yes,III,7.22,945.19,Palliative Care,16,Alive
+PID_207,71,Female,28.4,Hispanic,Yes,Yes,Yes,Yes,No,No,No,6.7,8.1,No,I,17.93,608.5,Radiation,41,Alive
+PID_208,74,Male,18.5,Hispanic,No,No,Yes,No,No,No,No,8.9,4.2,No,IV,6.18,254.63,Surgery,26,Alive
+PID_209,86,Male,31.4,Other,No,No,Yes,Yes,Yes,No,Yes,4.6,4.6,No,III,11.47,924.15,Chemotherapy,28,Deceased
+PID_210,82,Male,31.6,Caucasian,No,Yes,No,Yes,Yes,Yes,No,6.1,4.5,No,II,2.44,775.32,Radiation,1,Deceased
+PID_211,35,Female,23.8,African,Yes,Yes,No,No,No,No,No,1.9,2.7,No,I,18.48,574.43,Palliative Care,47,Alive
+PID_212,57,Male,30.5,Hispanic,No,Yes,Yes,Yes,Yes,Yes,Yes,8,1.6,Yes,II,3.25,695.64,Surgery,12,Deceased
+PID_213,57,Female,23.3,Caucasian,Yes,No,No,Yes,No,No,Yes,9.7,6.3,Yes,IV,4.89,924.32,Palliative Care,37,Alive
+PID_214,73,Male,22,Hispanic,No,No,Yes,Yes,Yes,No,No,2.7,9.9,No,II,11.38,712.39,Chemotherapy,55,Alive
+PID_215,73,Female,32.5,African,Yes,Yes,No,Yes,Yes,No,No,4.9,2.5,No,II,15.4,368.37,Chemotherapy,56,Deceased
+PID_216,49,Female,25.5,Hispanic,Yes,Yes,No,Yes,No,Yes,Yes,0.9,1.4,Yes,I,12.58,713.03,Surgery,50,Deceased
+PID_217,59,Male,31.2,Other,Yes,No,Yes,Yes,Yes,No,Yes,5.6,8,Yes,II,5.03,40.28,Radiation,20,Alive
+PID_218,40,Female,27.8,Other,No,Yes,No,Yes,No,No,No,5,3.3,No,III,0.52,386.42,Chemotherapy,2,Alive
+PID_219,87,Female,39.7,Hispanic,No,No,No,Yes,Yes,No,No,1.4,8.5,Yes,IV,15.26,406.32,Chemotherapy,36,Deceased
+PID_220,84,Male,21.7,Caucasian,No,No,Yes,No,No,Yes,Yes,4.4,7.3,Yes,III,19.71,166.84,Chemotherapy,15,Deceased
+PID_221,57,Female,28.5,Caucasian,Yes,Yes,Yes,No,Yes,No,No,3.3,9.5,No,IV,16.29,23.09,Chemotherapy,38,Deceased
+PID_222,54,Male,33.1,Caucasian,Yes,No,No,No,Yes,No,Yes,5.2,4.7,Yes,III,9.47,133.38,Palliative Care,22,Alive
+PID_223,68,Female,27,Hispanic,No,Yes,No,No,Yes,Yes,No,5.9,7,Yes,I,18.12,654.62,Palliative Care,44,Deceased
+PID_224,62,Male,39.5,Caucasian,No,Yes,No,Yes,Yes,Yes,Yes,0.1,5.2,Yes,II,8.49,802.29,Radiation,50,Alive
+PID_225,30,Male,34,African,No,Yes,Yes,No,Yes,No,Yes,7.6,6.7,Yes,III,10.74,988.2,Surgery,32,Deceased
+PID_226,86,Female,32.6,Other,Yes,Yes,No,No,No,No,No,7.1,5,No,IV,9.8,346.36,Surgery,59,Alive
+PID_227,56,Female,34.8,African,Yes,Yes,No,Yes,Yes,No,No,3.7,2.7,Yes,IV,9.23,599.38,Surgery,20,Alive
+PID_228,86,Female,39,Caucasian,Yes,Yes,No,Yes,No,Yes,Yes,0.5,5.6,No,II,15.62,937.14,Chemotherapy,36,Deceased
+PID_229,81,Female,38,African,Yes,No,Yes,Yes,No,Yes,No,7.5,5.8,Yes,II,10.77,167.04,Palliative Care,33,Deceased
+PID_230,42,Female,34.1,Caucasian,Yes,No,Yes,Yes,No,Yes,No,9.6,8.3,No,II,6.68,717.65,Palliative Care,15,Deceased
+PID_231,70,Male,34.6,Hispanic,No,No,Yes,Yes,Yes,No,No,2.4,7.6,No,IV,5.53,754.98,Radiation,50,Alive
+PID_232,32,Female,21.6,African,Yes,No,Yes,No,No,Yes,Yes,3.2,7,Yes,IV,1.24,88.98,Surgery,46,Deceased
+PID_233,68,Male,20.7,Hispanic,Yes,Yes,No,Yes,Yes,No,No,1.8,2,No,III,11.87,861.25,Palliative Care,3,Deceased
+PID_234,35,Male,30.8,Hispanic,Yes,No,Yes,No,No,Yes,No,5.8,7.5,No,II,4.98,813.11,Radiation,29,Alive
+PID_235,37,Female,18.9,Asian,Yes,No,No,No,No,Yes,Yes,1.5,5.5,No,III,3.39,33.4,Surgery,47,Deceased
+PID_236,56,Male,28.9,Caucasian,Yes,No,No,Yes,No,Yes,No,3.6,9,No,II,13.25,91.08,Chemotherapy,27,Deceased
+PID_237,38,Male,23,Other,No,Yes,No,No,No,No,No,7,9.3,No,II,13.78,49.13,Palliative Care,5,Alive
+PID_238,66,Male,25.9,Caucasian,Yes,No,No,No,No,No,Yes,5.6,1.5,Yes,III,15.17,334.74,Palliative Care,59,Alive
+PID_239,62,Male,35.2,Other,Yes,Yes,Yes,Yes,Yes,No,Yes,3.9,8.4,No,I,10.32,509.29,Surgery,56,Alive
+PID_240,80,Female,38.7,Caucasian,Yes,No,Yes,No,No,No,No,4.2,1.3,No,I,17.93,532.35,Chemotherapy,31,Alive
+PID_241,71,Male,20.1,Hispanic,No,Yes,Yes,No,No,Yes,No,5.6,4.3,Yes,IV,18.76,267.67,Chemotherapy,22,Deceased
+PID_242,73,Female,30,African,No,Yes,Yes,No,Yes,No,Yes,0.1,5.9,Yes,III,16.24,911.6,Palliative Care,35,Deceased
+PID_243,53,Female,37.5,African,No,No,Yes,Yes,Yes,Yes,Yes,0.8,2.3,No,II,12.89,368.26,Surgery,54,Deceased
+PID_244,44,Male,20.3,Asian,Yes,Yes,No,Yes,Yes,No,No,8.8,7.7,Yes,III,6.42,45.55,Radiation,7,Alive
+PID_245,88,Female,36.2,Other,No,Yes,Yes,Yes,No,No,No,0.8,1.1,Yes,II,19.67,300.23,Palliative Care,6,Deceased
+PID_246,83,Female,26.2,Other,Yes,No,Yes,No,No,Yes,No,7.1,2.5,Yes,III,5.85,531.11,Chemotherapy,26,Deceased
+PID_247,61,Female,25.4,Other,Yes,No,Yes,Yes,No,Yes,Yes,9.2,6.2,Yes,III,4.45,408.22,Radiation,54,Deceased
+PID_248,61,Male,39.5,Hispanic,No,No,Yes,No,No,No,No,2.7,7.4,Yes,III,9.12,273.84,Surgery,1,Alive
+PID_249,53,Female,22.8,Other,Yes,Yes,No,Yes,No,No,Yes,3.7,9.2,Yes,III,1.61,131.32,Chemotherapy,19,Deceased
+PID_250,70,Female,33.4,African,Yes,Yes,No,No,No,Yes,Yes,5.7,7.3,No,II,19.58,819.16,Radiation,7,Deceased
+PID_251,81,Female,36.2,Hispanic,Yes,Yes,No,Yes,Yes,Yes,Yes,8.8,7,No,II,11.97,996.15,Palliative Care,36,Deceased
+PID_252,78,Male,19.4,Caucasian,No,No,No,Yes,Yes,Yes,No,9.4,4.5,Yes,II,11.36,329.54,Chemotherapy,12,Alive
+PID_253,78,Female,32.9,Other,Yes,Yes,No,No,No,Yes,No,7.4,1,Yes,II,13.29,381.62,Surgery,20,Alive
+PID_254,87,Male,39,Other,Yes,Yes,Yes,Yes,No,Yes,No,0.9,2.1,No,III,10.19,618.04,Chemotherapy,23,Deceased
+PID_255,81,Male,21.2,Caucasian,No,Yes,No,No,No,No,Yes,6.7,5.8,Yes,II,1.13,718.44,Palliative Care,25,Alive
+PID_256,41,Male,37.8,Other,Yes,Yes,No,Yes,No,No,No,4.1,7.1,No,I,12.44,392.03,Surgery,30,Deceased
+PID_257,68,Male,31.3,Caucasian,Yes,Yes,No,Yes,No,No,Yes,4.7,4.8,Yes,II,14.47,904.93,Palliative Care,59,Deceased
+PID_258,31,Male,31.8,Hispanic,No,Yes,Yes,No,Yes,No,Yes,0.5,7.6,No,IV,8.63,560,Radiation,29,Alive
+PID_259,32,Male,31.7,African,Yes,Yes,Yes,No,Yes,Yes,Yes,1.9,5.7,No,II,15.27,450.39,Chemotherapy,31,Deceased
+PID_260,78,Female,24.9,Caucasian,Yes,No,No,No,No,Yes,Yes,7.9,1.7,Yes,III,4.93,646.67,Palliative Care,18,Alive
+PID_261,66,Male,38.6,Asian,Yes,No,Yes,Yes,Yes,Yes,Yes,4.5,2.7,Yes,II,4.81,952.8,Radiation,41,Alive
+PID_262,78,Female,38.9,Caucasian,Yes,No,Yes,No,No,No,Yes,3,8.6,Yes,I,3.65,794.55,Surgery,19,Deceased
+PID_263,85,Female,31.9,Other,Yes,Yes,No,Yes,No,Yes,No,3.8,7.5,Yes,II,7.75,40.01,Surgery,54,Deceased
+PID_264,46,Male,35.3,Hispanic,No,Yes,Yes,No,No,Yes,Yes,8.5,9.1,No,III,17.02,332.31,Radiation,4,Alive
+PID_265,88,Female,31.7,Hispanic,No,No,Yes,No,Yes,No,No,7.5,2.1,Yes,III,16.64,470.54,Radiation,1,Deceased
+PID_266,78,Female,28.9,Caucasian,No,Yes,Yes,No,Yes,No,Yes,2.7,9.9,No,IV,7.97,314.52,Surgery,41,Alive
+PID_267,31,Female,32.7,African,No,No,No,No,No,No,No,1.2,2.9,Yes,II,11.99,700.19,Palliative Care,59,Deceased
+PID_268,31,Female,30.4,Asian,Yes,Yes,No,No,Yes,Yes,No,2.5,1.1,No,I,14.56,826.27,Radiation,15,Deceased
+PID_269,57,Male,31.3,Hispanic,Yes,Yes,No,No,Yes,Yes,No,9.2,10,Yes,IV,5.2,731.35,Palliative Care,54,Alive
+PID_270,83,Female,35.4,Other,Yes,No,Yes,Yes,No,No,No,5.8,3.5,Yes,II,3.78,989.33,Surgery,8,Deceased
+PID_271,52,Male,28.8,Other,Yes,No,No,No,Yes,No,Yes,5.3,7,No,III,19.46,272.55,Palliative Care,15,Deceased
+PID_272,66,Female,19.4,African,Yes,No,Yes,Yes,Yes,Yes,Yes,6,2.6,Yes,III,12.54,874.99,Palliative Care,15,Deceased
+PID_273,61,Female,22,Hispanic,No,No,Yes,No,No,No,Yes,3.7,6.2,Yes,II,19.64,766.62,Radiation,50,Deceased
+PID_274,62,Male,27.9,Caucasian,No,No,Yes,No,No,Yes,Yes,8.1,9.1,Yes,III,7.09,362.18,Palliative Care,39,Alive
+PID_275,30,Female,34.1,Other,Yes,Yes,No,No,Yes,No,No,5.2,3.9,Yes,I,14.21,734.12,Palliative Care,22,Alive
+PID_276,48,Female,31.3,African,Yes,Yes,No,Yes,No,No,No,1.2,7,Yes,II,4.84,104.08,Palliative Care,18,Deceased
+PID_277,31,Female,32.5,Hispanic,Yes,Yes,No,Yes,Yes,No,No,1.3,2.7,No,I,5.59,789.33,Surgery,16,Deceased
+PID_278,82,Male,28.8,Hispanic,No,No,No,No,No,Yes,Yes,5.4,6.6,Yes,IV,10.48,532.33,Surgery,2,Deceased
+PID_279,73,Female,31.7,Hispanic,Yes,No,Yes,Yes,No,Yes,No,9.4,4,No,II,6.73,292.29,Chemotherapy,36,Alive
+PID_280,55,Male,25.6,Hispanic,Yes,No,No,No,No,No,Yes,3.1,2.9,Yes,III,3.77,655.78,Surgery,20,Deceased
+PID_281,61,Female,28.6,Hispanic,Yes,No,Yes,No,No,Yes,No,8.7,3.8,Yes,IV,5.63,641.62,Surgery,16,Alive
+PID_282,35,Male,34.5,Other,No,No,No,Yes,Yes,No,No,7.6,2.6,No,III,1.2,209.49,Chemotherapy,3,Alive
+PID_283,61,Male,37.2,African,Yes,No,No,Yes,No,No,No,2.5,9.1,No,III,14.24,30.4,Chemotherapy,56,Deceased
+PID_284,84,Female,27.8,Hispanic,No,Yes,No,Yes,No,Yes,No,0.4,4.6,No,II,10.1,433.62,Radiation,30,Deceased
+PID_285,33,Female,19.4,Asian,No,Yes,Yes,Yes,No,Yes,No,1,3.2,No,II,2.34,569.51,Radiation,55,Alive
+PID_286,84,Male,22,Asian,No,Yes,Yes,No,Yes,Yes,Yes,7.3,5,No,II,3.85,876.61,Surgery,2,Deceased
+PID_287,40,Male,18.9,African,No,Yes,Yes,Yes,Yes,Yes,No,2,3.9,Yes,III,2.5,928.22,Palliative Care,35,Deceased
+PID_288,85,Female,32.5,Caucasian,No,Yes,Yes,Yes,No,No,Yes,3.7,7.7,No,IV,12.45,528.81,Radiation,26,Alive
+PID_289,88,Male,25.6,Caucasian,No,No,Yes,No,No,Yes,Yes,5,9.7,No,IV,2.34,753.8,Radiation,57,Deceased
+PID_290,46,Female,30.2,Caucasian,Yes,No,No,Yes,No,Yes,Yes,7.3,4.9,Yes,IV,15.21,439.3,Surgery,5,Alive
+PID_291,67,Female,29.1,Asian,Yes,No,Yes,Yes,No,No,Yes,1.1,8.7,Yes,IV,0.9,746.08,Palliative Care,2,Deceased
+PID_292,53,Female,20.3,Caucasian,Yes,No,Yes,Yes,No,No,Yes,4.1,6.1,No,II,5.36,204.8,Chemotherapy,51,Deceased
+PID_293,34,Female,27.2,Other,No,No,Yes,Yes,No,No,Yes,4.9,2.4,No,III,17.87,371.06,Chemotherapy,56,Deceased
+PID_294,81,Male,23.2,Hispanic,Yes,No,Yes,No,Yes,No,Yes,5.4,7.2,No,IV,14.51,634.23,Surgery,20,Deceased
+PID_295,63,Female,27.5,Asian,No,Yes,No,No,No,Yes,Yes,8.2,5.6,Yes,II,1.92,18.16,Surgery,34,Alive
+PID_296,35,Male,22.9,African,No,No,Yes,Yes,No,Yes,No,1.7,6.9,No,IV,16.51,722.46,Palliative Care,34,Deceased
+PID_297,51,Female,36.6,African,No,No,No,Yes,No,No,No,8.1,9,Yes,II,10.11,835.54,Surgery,54,Deceased
+PID_298,40,Male,22.2,Hispanic,Yes,No,No,No,No,No,Yes,6.9,5,Yes,III,17.01,399.14,Surgery,56,Deceased
+PID_299,77,Female,39.2,Asian,No,No,No,Yes,No,Yes,Yes,5.6,9.1,Yes,III,12.21,447.94,Surgery,55,Deceased
+PID_300,45,Male,27.4,Caucasian,No,Yes,Yes,Yes,No,Yes,Yes,7,7.8,Yes,IV,13.8,851.28,Palliative Care,20,Deceased
+PID_301,62,Male,36.7,Caucasian,Yes,Yes,No,Yes,Yes,Yes,No,4.1,5.4,No,II,19.87,775.65,Surgery,50,Deceased
+PID_302,38,Female,32,Other,Yes,No,Yes,Yes,Yes,Yes,No,1.4,6.4,Yes,III,5.03,288.15,Radiation,25,Alive
+PID_303,89,Female,34.3,Other,No,Yes,Yes,Yes,Yes,Yes,Yes,6.7,3.9,Yes,III,12.67,323.98,Palliative Care,20,Alive
+PID_304,88,Female,35,Caucasian,No,Yes,Yes,Yes,Yes,No,Yes,5.2,9.9,No,II,9.48,678.88,Radiation,25,Deceased
+PID_305,35,Female,29.4,African,Yes,No,Yes,Yes,Yes,No,No,6.4,7,Yes,III,1.27,563.2,Palliative Care,53,Deceased
+PID_306,45,Male,30.2,African,Yes,No,Yes,Yes,Yes,No,No,3.4,1.4,No,III,0.78,162.23,Radiation,14,Deceased
+PID_307,58,Female,29.6,Other,Yes,No,No,Yes,No,No,Yes,9.1,3.9,Yes,III,2.82,309.93,Palliative Care,47,Alive
+PID_308,32,Male,31.1,Hispanic,No,No,No,No,No,Yes,Yes,5.9,6.6,No,II,13.16,899.98,Chemotherapy,44,Alive
+PID_309,49,Male,19.1,Caucasian,Yes,No,Yes,No,No,No,Yes,0.9,1.5,Yes,II,11.56,688.17,Surgery,43,Deceased
+PID_310,89,Female,27,Other,Yes,Yes,No,No,No,Yes,Yes,4.5,1.2,Yes,III,11.29,985.97,Surgery,43,Deceased
+PID_311,88,Male,31.5,Other,Yes,No,Yes,Yes,No,Yes,No,7.6,5.1,No,II,1.12,767.01,Palliative Care,39,Deceased
+PID_312,65,Male,31.4,Caucasian,No,No,No,Yes,No,Yes,No,7.9,4,Yes,I,9.65,941.97,Radiation,12,Alive
+PID_313,48,Male,35.5,Caucasian,Yes,No,No,No,Yes,Yes,Yes,4.9,4.9,Yes,IV,18.53,216.19,Chemotherapy,48,Alive
+PID_314,55,Male,32.6,African,Yes,Yes,No,Yes,No,Yes,Yes,8.9,3.4,No,III,8.25,771.48,Radiation,5,Deceased
+PID_315,32,Female,39.8,Hispanic,Yes,No,No,No,Yes,Yes,Yes,2.7,2.5,Yes,III,12.69,20.22,Surgery,2,Alive
+PID_316,48,Female,24.6,Hispanic,Yes,No,No,Yes,Yes,Yes,No,4.1,7.2,Yes,II,15.71,670.76,Surgery,54,Deceased
+PID_317,49,Female,26.2,Caucasian,Yes,No,Yes,No,No,No,Yes,9,5.6,No,II,15.79,469.28,Radiation,16,Deceased
+PID_318,61,Female,26.8,Asian,No,Yes,Yes,No,No,Yes,Yes,9,2.8,No,II,10.63,346.76,Palliative Care,55,Alive
+PID_319,36,Male,28.5,Other,No,No,No,No,No,No,Yes,6.9,3.9,No,II,17.23,862.4,Palliative Care,30,Alive
+PID_320,81,Male,36.5,Other,No,No,Yes,Yes,No,No,No,8.6,6.3,No,III,8.13,854.27,Radiation,47,Alive
+PID_321,70,Female,23.6,Caucasian,Yes,No,No,No,No,Yes,Yes,0.9,1.7,No,III,17.83,22.3,Surgery,43,Deceased
+PID_322,62,Female,35.2,Asian,No,Yes,Yes,Yes,No,Yes,No,8.6,2.3,Yes,II,5.18,609.51,Radiation,38,Alive
+PID_323,69,Female,27.2,African,No,No,No,Yes,No,No,Yes,3.2,1.7,No,I,5.96,367.83,Surgery,45,Alive
+PID_324,68,Male,31.4,Caucasian,No,No,No,Yes,Yes,No,Yes,1.8,8.3,Yes,II,1.54,415.66,Radiation,51,Deceased
+PID_325,47,Female,32.1,Caucasian,Yes,No,No,Yes,No,No,Yes,2.4,7.8,No,I,16.01,832.04,Palliative Care,42,Alive
+PID_326,69,Female,26.5,Other,Yes,Yes,Yes,Yes,No,No,No,4.2,7.8,Yes,I,8.63,309.84,Chemotherapy,24,Deceased
+PID_327,30,Female,29.5,Caucasian,No,No,Yes,Yes,Yes,Yes,Yes,2.5,7.4,Yes,IV,4.97,943.05,Surgery,51,Alive
+PID_328,40,Male,27.4,Caucasian,No,No,No,Yes,No,Yes,Yes,3.2,7,No,III,5.02,179.63,Chemotherapy,30,Deceased
+PID_329,57,Male,20,Caucasian,Yes,No,No,No,No,Yes,No,1.3,5.3,Yes,III,18.08,662.72,Palliative Care,37,Alive
+PID_330,86,Male,27.9,Other,Yes,Yes,Yes,No,Yes,No,No,3,6.8,Yes,II,16.76,672.11,Radiation,57,Alive
+PID_331,54,Male,20.6,African,No,Yes,Yes,No,No,Yes,No,5.7,1.3,No,IV,11.29,252.2,Palliative Care,59,Deceased
+PID_332,79,Male,27.2,African,Yes,No,Yes,Yes,No,No,Yes,4.4,6.6,No,III,12.51,324.75,Chemotherapy,53,Alive
+PID_333,52,Male,31.2,Caucasian,No,Yes,Yes,Yes,No,Yes,No,3.5,8,No,III,9.75,834.8,Palliative Care,39,Deceased
+PID_334,60,Male,31,Other,Yes,Yes,Yes,Yes,No,No,Yes,7.5,5.5,No,II,8.14,761.81,Palliative Care,11,Alive
+PID_335,59,Male,32.7,African,No,Yes,No,Yes,No,Yes,No,8.9,4.2,Yes,IV,18.35,329.1,Radiation,14,Deceased
+PID_336,71,Female,20.5,African,No,No,Yes,No,No,Yes,No,7.6,3.5,Yes,IV,2.95,533.96,Chemotherapy,23,Deceased
+PID_337,64,Female,32.5,African,Yes,No,No,Yes,Yes,No,No,3.3,6.8,Yes,IV,8.66,61.68,Chemotherapy,53,Alive
+PID_338,36,Male,25.2,Other,No,Yes,No,No,No,No,Yes,7.4,7.2,Yes,I,7.22,208.75,Chemotherapy,16,Alive
+PID_339,89,Male,27.1,Other,No,Yes,Yes,Yes,No,No,Yes,1.5,8.8,Yes,II,10.21,485.82,Surgery,50,Deceased
+PID_340,45,Female,36.9,Caucasian,No,Yes,Yes,No,Yes,No,Yes,1.3,4.1,Yes,II,9.42,85.97,Palliative Care,21,Deceased
+PID_341,55,Male,18.7,Hispanic,Yes,No,No,Yes,Yes,No,Yes,3.5,7.9,No,II,10.62,843.33,Chemotherapy,55,Alive
+PID_342,77,Male,31.2,African,Yes,No,Yes,No,No,Yes,Yes,8.1,6.1,Yes,IV,3.23,718.01,Palliative Care,55,Deceased
+PID_343,86,Male,31.4,Hispanic,Yes,Yes,No,Yes,Yes,No,Yes,2.5,8.9,Yes,I,10.51,943.63,Radiation,4,Alive
+PID_344,81,Female,27,Other,No,Yes,Yes,No,No,Yes,Yes,0.6,5.8,Yes,I,5.23,693.47,Radiation,33,Alive
+PID_345,89,Female,23.6,Other,Yes,Yes,Yes,Yes,No,Yes,Yes,1.3,5.7,No,II,4.09,940.4,Surgery,54,Deceased
+PID_346,78,Female,23.5,Other,No,Yes,Yes,No,Yes,Yes,Yes,8.6,6.2,No,I,1.76,554.51,Surgery,47,Deceased
+PID_347,31,Female,37.5,Hispanic,No,No,No,No,No,Yes,No,6.3,7.7,No,II,15.37,600.22,Radiation,14,Deceased
+PID_348,30,Female,28,Other,Yes,Yes,Yes,Yes,No,Yes,No,2.5,9.7,No,III,8.84,976.97,Chemotherapy,19,Alive
+PID_349,77,Male,25.6,Caucasian,Yes,No,No,No,Yes,No,Yes,5.6,1.7,Yes,III,12.72,642.13,Radiation,59,Alive
+PID_350,41,Female,28.1,Other,No,Yes,Yes,Yes,Yes,No,Yes,5.3,1.5,Yes,I,14.69,30.79,Palliative Care,5,Deceased
+PID_351,34,Male,32.9,Asian,No,Yes,No,Yes,Yes,Yes,Yes,6.6,9.4,Yes,II,13.75,723.8,Surgery,36,Alive
+PID_352,66,Male,21.6,Hispanic,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2.3,5.8,No,II,9.67,905.47,Surgery,31,Alive
+PID_353,61,Female,28.2,Asian,Yes,Yes,No,No,No,No,No,8.6,6.5,Yes,I,8.06,795.58,Radiation,45,Alive
+PID_354,88,Female,31.1,Other,Yes,Yes,No,No,Yes,No,No,3.1,5.3,Yes,III,7.83,583.83,Chemotherapy,18,Deceased
+PID_355,84,Male,38.9,Caucasian,No,No,No,Yes,Yes,Yes,Yes,6.9,1.8,Yes,III,12.98,671.3,Chemotherapy,44,Alive
+PID_356,38,Male,23.9,African,No,Yes,No,Yes,Yes,No,No,0.2,7.9,No,III,10.15,990.19,Palliative Care,31,Alive
+PID_357,70,Male,26.2,Other,No,Yes,No,No,Yes,No,No,3.7,7.7,No,III,17.06,90.66,Surgery,55,Deceased
+PID_358,64,Female,26.7,Caucasian,No,Yes,No,No,Yes,No,Yes,3.5,3.8,No,I,17.56,667.24,Radiation,30,Deceased
+PID_359,48,Female,31.5,Hispanic,No,No,Yes,No,No,Yes,Yes,5.4,3.8,Yes,IV,3.83,283.4,Radiation,21,Alive
+PID_360,77,Female,26.2,Asian,Yes,No,No,Yes,Yes,No,Yes,0.7,8.5,Yes,IV,3.16,640.09,Surgery,47,Deceased
+PID_361,45,Female,30,Asian,Yes,No,No,Yes,No,Yes,Yes,7.9,1.7,Yes,IV,12.79,607.62,Radiation,30,Alive
+PID_362,32,Female,35.3,Asian,No,No,No,Yes,Yes,Yes,No,2.2,8.9,Yes,I,6.37,153.46,Surgery,55,Deceased
+PID_363,49,Male,33.7,Hispanic,No,Yes,Yes,Yes,Yes,Yes,Yes,6.8,3.3,No,IV,0.86,206.75,Chemotherapy,41,Deceased
+PID_364,53,Female,28.1,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,8,6.3,Yes,IV,17.83,621.63,Chemotherapy,4,Alive
+PID_365,83,Male,37.1,Hispanic,Yes,Yes,Yes,No,Yes,Yes,Yes,5.6,9.4,No,IV,4.92,128.23,Radiation,5,Alive
+PID_366,85,Male,30.5,Asian,Yes,No,No,Yes,Yes,No,No,7.4,7.1,Yes,I,18.62,265.18,Chemotherapy,41,Deceased
+PID_367,62,Male,30.1,Other,Yes,Yes,Yes,No,Yes,Yes,Yes,6.6,4.7,No,III,14.49,835.25,Chemotherapy,45,Deceased
+PID_368,53,Female,19.2,African,No,Yes,Yes,No,Yes,Yes,Yes,3.6,7.2,Yes,IV,15.37,327.09,Palliative Care,10,Deceased
+PID_369,81,Female,39.7,Hispanic,Yes,No,No,Yes,Yes,Yes,No,8.1,4.1,Yes,III,4.43,488.06,Surgery,27,Alive
+PID_370,40,Female,21.1,Hispanic,No,No,No,No,No,No,No,2.9,3.5,No,III,5.07,941.14,Surgery,16,Alive
+PID_371,78,Male,23.5,Caucasian,Yes,No,Yes,Yes,Yes,No,No,5.7,10,No,IV,10.66,227.15,Radiation,30,Alive
+PID_372,37,Male,19.6,Caucasian,Yes,Yes,No,No,No,No,Yes,7.5,7.8,Yes,II,3.86,389.63,Surgery,13,Alive
+PID_373,65,Male,32.3,Hispanic,Yes,Yes,No,Yes,Yes,No,No,3.8,6.8,Yes,III,6.46,606.46,Palliative Care,36,Deceased
+PID_374,67,Male,23.3,Asian,No,No,No,Yes,No,No,No,3,4.2,Yes,II,6.77,755.34,Radiation,21,Deceased
+PID_375,69,Male,22.4,African,No,Yes,No,No,Yes,No,No,4.6,1.4,No,IV,3.61,901.65,Radiation,45,Alive
+PID_376,49,Male,20.4,Caucasian,Yes,No,Yes,Yes,Yes,No,No,8.2,1.3,Yes,I,4.5,915.47,Surgery,53,Alive
+PID_377,64,Female,20.7,Asian,No,No,No,No,Yes,Yes,No,9.3,6,No,III,15.88,776.64,Chemotherapy,40,Deceased
+PID_378,77,Female,31.1,Other,No,Yes,Yes,Yes,No,Yes,No,5.5,7.9,Yes,III,3.76,228.33,Chemotherapy,45,Alive
+PID_379,54,Female,33.3,Caucasian,Yes,No,Yes,Yes,No,No,No,6.6,5.8,Yes,III,1.05,24.81,Chemotherapy,15,Deceased
+PID_380,64,Female,27,Asian,Yes,No,Yes,Yes,No,Yes,No,9,8.6,Yes,III,12.77,383.77,Chemotherapy,20,Deceased
+PID_381,54,Male,28.8,Asian,No,No,Yes,No,No,Yes,No,1,1.3,Yes,IV,19.53,141.55,Palliative Care,20,Deceased
+PID_382,58,Male,33.2,African,No,Yes,No,No,Yes,No,Yes,2.3,4.3,No,IV,6.96,710.39,Radiation,45,Deceased
+PID_383,47,Female,18.9,African,No,No,No,Yes,Yes,Yes,Yes,7.1,3.1,No,I,2.81,661.13,Chemotherapy,55,Deceased
+PID_384,75,Male,25.4,Other,Yes,No,No,No,Yes,Yes,No,8.2,5,Yes,II,11.62,43.97,Palliative Care,59,Alive
+PID_385,47,Female,39.4,Asian,Yes,No,Yes,Yes,No,No,Yes,8.6,1.7,Yes,I,18.17,836.59,Radiation,5,Deceased
+PID_386,31,Female,31,Asian,No,No,Yes,No,Yes,Yes,Yes,4.2,9.6,Yes,II,15.79,248.74,Surgery,54,Alive
+PID_387,83,Female,24,African,Yes,No,Yes,No,No,No,No,0.9,3,No,III,12.64,432.23,Surgery,54,Alive
+PID_388,64,Male,29.7,Caucasian,Yes,No,No,Yes,No,No,No,4.4,9.3,Yes,IV,6.64,667.93,Palliative Care,32,Deceased
+PID_389,45,Female,25.9,Caucasian,No,No,Yes,Yes,No,Yes,No,2.3,4.8,No,IV,11.07,429.42,Radiation,6,Alive
+PID_390,70,Female,29.9,Hispanic,No,Yes,No,Yes,No,Yes,No,2.9,9.9,No,I,2.28,441.29,Chemotherapy,30,Alive
+PID_391,65,Female,21.2,African,Yes,Yes,No,Yes,No,Yes,No,7.7,6,No,I,13.74,65.63,Radiation,26,Alive
+PID_392,62,Male,21.4,Hispanic,Yes,No,No,Yes,Yes,No,No,0.8,9.4,No,III,14.64,401.44,Chemotherapy,37,Alive
+PID_393,33,Male,21.6,African,No,Yes,No,No,No,No,Yes,8.3,1,Yes,III,19.32,764.85,Palliative Care,13,Deceased
+PID_394,62,Female,38.7,Other,Yes,Yes,Yes,No,No,No,No,4.3,7.7,Yes,II,5.58,915.18,Chemotherapy,29,Alive
+PID_395,43,Male,34.3,Asian,Yes,No,No,Yes,Yes,Yes,Yes,6,9.1,No,IV,0.86,413.5,Palliative Care,5,Deceased
+PID_396,50,Male,22,Other,No,Yes,Yes,Yes,No,Yes,No,0.9,2.3,Yes,IV,11.14,423.59,Radiation,25,Deceased
+PID_397,77,Male,22.5,African,No,No,No,Yes,No,No,No,3.4,1.9,Yes,II,14.28,702.63,Radiation,13,Deceased
+PID_398,49,Male,34.2,Asian,Yes,No,Yes,No,Yes,Yes,Yes,0.9,4.8,Yes,IV,15.91,942.77,Chemotherapy,24,Deceased
+PID_399,85,Male,21.9,Caucasian,Yes,No,Yes,Yes,Yes,Yes,No,9.6,9.4,No,II,4.28,267.06,Radiation,31,Deceased
+PID_400,37,Male,23.5,Caucasian,Yes,No,No,Yes,Yes,No,No,8.1,5.9,Yes,III,5.6,440.14,Chemotherapy,20,Alive
+PID_401,36,Male,39.2,Hispanic,No,No,No,No,No,No,Yes,4.6,5.7,Yes,II,10.5,795.97,Radiation,55,Deceased
+PID_402,32,Male,24,African,Yes,Yes,No,No,Yes,Yes,No,2.2,2.3,Yes,I,6.95,609.69,Surgery,8,Deceased
+PID_403,46,Male,32.7,African,Yes,No,Yes,No,Yes,No,Yes,9.3,1,Yes,IV,17.28,110.59,Chemotherapy,9,Deceased
+PID_404,62,Male,39.5,Caucasian,No,Yes,No,No,Yes,Yes,No,3.4,8.3,Yes,II,9.74,627.73,Palliative Care,21,Deceased
+PID_405,77,Female,26.5,Other,No,No,No,Yes,No,No,No,1.6,1.8,Yes,III,16.09,186.75,Surgery,51,Alive
+PID_406,41,Female,18.9,Asian,Yes,No,Yes,No,Yes,No,Yes,5.6,6.7,Yes,II,11.82,510.22,Palliative Care,20,Deceased
+PID_407,88,Male,23.7,Other,No,No,No,No,No,No,No,9.4,9.2,Yes,I,15.58,529.1,Radiation,15,Alive
+PID_408,80,Female,36.4,Other,No,Yes,Yes,Yes,No,Yes,Yes,0,2.9,Yes,I,6.99,876.2,Surgery,26,Alive
+PID_409,51,Female,37.1,Caucasian,Yes,No,No,Yes,Yes,Yes,Yes,2.4,7,Yes,II,16.71,462.49,Radiation,54,Alive
+PID_410,84,Male,35,Caucasian,No,No,Yes,Yes,No,No,Yes,9.4,1.7,No,III,5.85,279.44,Chemotherapy,42,Deceased
+PID_411,51,Male,20.9,Caucasian,No,No,Yes,No,No,No,No,1.7,6.4,Yes,II,11.15,230.97,Palliative Care,11,Deceased
+PID_412,75,Male,35.6,Hispanic,Yes,No,No,Yes,Yes,No,No,1.1,2.5,No,III,4.67,874.25,Radiation,37,Deceased
+PID_413,59,Female,38.3,Other,No,Yes,Yes,No,No,Yes,Yes,5.7,7.6,Yes,III,9.77,171.01,Palliative Care,41,Deceased
+PID_414,67,Female,31.4,African,Yes,No,No,No,Yes,No,No,8.6,3.7,No,III,6.7,425.87,Palliative Care,11,Alive
+PID_415,67,Male,38.7,Asian,Yes,Yes,No,No,No,No,No,4.8,5.2,No,II,5.7,187.17,Radiation,27,Deceased
+PID_416,74,Male,36.3,Hispanic,No,No,Yes,Yes,No,No,No,9.9,6.4,Yes,IV,19.36,773.3,Chemotherapy,30,Deceased
+PID_417,80,Male,32.8,African,No,Yes,No,No,Yes,No,Yes,6.8,2.5,No,II,3.62,474.37,Palliative Care,19,Deceased
+PID_418,83,Female,30.9,Other,No,Yes,Yes,Yes,Yes,Yes,No,0.7,7.7,No,II,15.85,351.14,Radiation,34,Deceased
+PID_419,37,Female,26,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,9.9,3.7,No,I,19.69,361.1,Chemotherapy,38,Deceased
+PID_420,56,Female,21.9,Other,No,No,Yes,Yes,No,No,No,4.1,7,Yes,II,0.89,852.21,Radiation,23,Deceased
+PID_421,56,Female,31.5,Asian,Yes,Yes,Yes,No,Yes,Yes,No,2.9,2.4,No,I,14.13,553.77,Chemotherapy,53,Alive
+PID_422,63,Male,25.3,Hispanic,No,No,Yes,No,No,Yes,Yes,5.6,7.2,No,III,5.43,717.87,Palliative Care,1,Deceased
+PID_423,50,Male,37.1,Hispanic,No,No,Yes,No,No,Yes,No,3,2.2,Yes,II,1.29,897.04,Surgery,3,Deceased
+PID_424,59,Male,39.9,Asian,No,No,Yes,Yes,No,No,Yes,0.9,4.8,No,II,8.36,901.74,Radiation,3,Alive
+PID_425,62,Male,34.7,African,Yes,Yes,Yes,No,No,Yes,No,0,3.2,No,III,18.74,328.51,Palliative Care,28,Deceased
+PID_426,57,Female,20.4,African,No,No,No,No,Yes,Yes,Yes,4.5,7.7,No,II,0.73,952.45,Radiation,14,Alive
+PID_427,76,Female,24.7,Hispanic,No,No,No,No,Yes,Yes,No,8.4,3.4,Yes,II,11.96,24.88,Radiation,52,Deceased
+PID_428,62,Male,20.8,Hispanic,Yes,No,Yes,No,Yes,No,No,5.7,8.9,No,I,10.28,376.84,Chemotherapy,30,Deceased
+PID_429,34,Male,32.5,Caucasian,Yes,Yes,No,No,Yes,No,No,10,9,Yes,III,17.53,895.8,Radiation,58,Deceased
+PID_430,89,Female,35,African,No,No,No,Yes,Yes,Yes,Yes,2.9,2.8,No,I,2.14,274.64,Chemotherapy,54,Deceased
+PID_431,77,Male,38.4,Asian,No,Yes,No,Yes,Yes,Yes,Yes,2.8,6.5,No,II,13.79,273.08,Palliative Care,5,Alive
+PID_432,48,Female,27.9,African,No,No,No,Yes,No,No,Yes,1.6,1.8,No,III,13.76,302.62,Radiation,49,Alive
+PID_433,33,Male,37.9,Caucasian,Yes,Yes,No,Yes,Yes,No,No,1.6,4.5,No,III,13.55,612.31,Palliative Care,15,Deceased
+PID_434,64,Male,37.4,Hispanic,Yes,No,No,No,No,Yes,Yes,2.9,7.4,Yes,III,18.88,438.33,Surgery,38,Alive
+PID_435,78,Male,25.3,Hispanic,Yes,No,Yes,Yes,No,Yes,Yes,7.9,6.9,No,IV,16.55,726.73,Palliative Care,14,Deceased
+PID_436,46,Male,37.2,Caucasian,Yes,Yes,No,No,No,No,Yes,9.1,6.6,Yes,I,1.32,894.91,Radiation,14,Alive
+PID_437,73,Male,26.6,Asian,No,Yes,No,Yes,Yes,No,Yes,9.8,3.5,No,II,9.69,674.2,Surgery,57,Alive
+PID_438,57,Male,24.9,Hispanic,Yes,Yes,No,Yes,No,Yes,Yes,2.3,4.4,Yes,II,8.26,204.47,Chemotherapy,59,Deceased
+PID_439,59,Male,32.5,Other,Yes,No,No,Yes,Yes,No,Yes,8.8,1.9,No,I,6.55,932.68,Surgery,49,Deceased
+PID_440,58,Female,25.6,Hispanic,Yes,No,Yes,No,No,Yes,Yes,3.3,7.5,No,II,9.3,264.49,Radiation,8,Alive
+PID_441,75,Female,32,Other,No,No,Yes,No,No,Yes,Yes,1.1,5.5,Yes,II,7.99,149.89,Radiation,8,Alive
+PID_442,82,Female,31.6,Caucasian,No,No,Yes,Yes,Yes,Yes,Yes,8.7,7.4,Yes,III,8.93,89.97,Palliative Care,19,Alive
+PID_443,35,Female,30.6,Caucasian,Yes,Yes,Yes,No,No,No,Yes,6.4,3.2,Yes,III,19.6,563.38,Chemotherapy,32,Deceased
+PID_444,64,Female,26.7,Hispanic,Yes,No,No,Yes,No,Yes,No,1.6,3.9,Yes,II,2.23,113.76,Radiation,31,Alive
+PID_445,89,Male,30.3,African,No,No,Yes,Yes,No,Yes,No,4.3,4,No,III,18.48,138.78,Radiation,29,Deceased
+PID_446,70,Male,31.3,Other,No,No,Yes,Yes,No,No,Yes,2.9,1.2,Yes,II,9.86,300.03,Chemotherapy,41,Deceased
+PID_447,66,Female,30.2,Asian,No,No,Yes,No,Yes,No,No,7.4,4.1,Yes,II,12.66,281.65,Chemotherapy,11,Deceased
+PID_448,53,Male,28.1,Hispanic,No,No,Yes,Yes,No,Yes,No,4.5,8.2,Yes,III,16.69,604.24,Palliative Care,45,Alive
+PID_449,58,Female,18.8,Asian,No,No,No,Yes,No,Yes,Yes,9.9,9.1,No,I,7.53,816.75,Surgery,13,Deceased
+PID_450,78,Female,31.1,Hispanic,No,No,Yes,Yes,Yes,No,Yes,0.5,5.7,No,I,8.89,761.35,Chemotherapy,27,Deceased
+PID_451,75,Male,22.1,African,No,Yes,No,No,No,No,Yes,3.6,5.1,No,II,8.49,262.48,Radiation,56,Alive
+PID_452,82,Male,32.3,African,No,No,Yes,Yes,No,No,No,4.8,1.3,No,IV,7.81,245.31,Chemotherapy,19,Alive
+PID_453,60,Male,34.8,African,Yes,No,No,No,No,Yes,Yes,5,8.9,Yes,III,18.55,965.79,Radiation,26,Deceased
+PID_454,64,Female,29.3,African,Yes,No,No,Yes,No,Yes,No,3.2,1.1,No,I,16.66,8.24,Palliative Care,53,Alive
+PID_455,89,Male,30.2,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,7.3,9.5,Yes,IV,2.63,879.72,Surgery,51,Deceased
+PID_456,62,Female,39,Caucasian,Yes,Yes,Yes,Yes,No,No,No,8.7,5.4,No,III,2.61,199.73,Palliative Care,37,Deceased
+PID_457,81,Female,36.7,Other,Yes,Yes,Yes,Yes,Yes,Yes,No,9.4,4.1,Yes,III,8.84,947.28,Chemotherapy,48,Deceased
+PID_458,50,Female,38.2,Asian,Yes,Yes,Yes,No,No,No,Yes,8.1,9.3,Yes,IV,2.42,342.31,Radiation,9,Deceased
+PID_459,61,Male,36,Hispanic,No,Yes,No,No,No,Yes,Yes,8.5,1.2,Yes,II,12.57,440.35,Chemotherapy,28,Deceased
+PID_460,52,Male,20.8,Hispanic,No,Yes,No,Yes,No,No,No,5.5,6.2,Yes,II,3.3,707.12,Chemotherapy,32,Alive
+PID_461,62,Female,21.7,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,8.3,5.9,Yes,III,10.69,587.67,Chemotherapy,52,Alive
+PID_462,32,Male,29.8,Hispanic,Yes,No,Yes,Yes,No,Yes,Yes,3,3,No,III,0.64,317.94,Chemotherapy,54,Deceased
+PID_463,47,Male,23.8,Caucasian,No,Yes,No,Yes,No,No,Yes,4,4.9,Yes,III,6.67,553.83,Surgery,3,Deceased
+PID_464,54,Male,28.7,Other,No,Yes,Yes,Yes,Yes,No,No,3.2,6.9,Yes,III,13.71,730.71,Radiation,51,Deceased
+PID_465,71,Female,27,Asian,No,No,No,No,Yes,Yes,Yes,4.7,7.5,Yes,IV,9.94,42.33,Chemotherapy,32,Deceased
+PID_466,60,Female,30.3,Other,Yes,Yes,Yes,Yes,Yes,No,No,2.9,1,Yes,IV,19.58,11.2,Radiation,5,Alive
+PID_467,83,Male,34.6,African,No,No,No,No,Yes,No,Yes,9.6,9.4,No,IV,17.55,458.07,Surgery,8,Alive
+PID_468,87,Female,33.9,African,Yes,No,No,Yes,No,Yes,Yes,3.1,2.5,No,IV,7.5,131.84,Radiation,14,Alive
+PID_469,32,Male,29.7,African,Yes,Yes,No,No,No,No,Yes,1,3.1,Yes,IV,1.39,664.34,Radiation,56,Alive
+PID_470,69,Male,36.2,Other,No,No,No,No,No,Yes,No,5.3,3.4,Yes,I,16.99,214.05,Surgery,3,Deceased
+PID_471,75,Male,27.8,Hispanic,No,Yes,No,Yes,No,Yes,Yes,0.6,1.3,Yes,II,18.27,432.85,Chemotherapy,24,Deceased
+PID_472,53,Male,37.8,Asian,Yes,Yes,Yes,No,Yes,No,No,1.1,2.1,Yes,II,16.5,197.67,Radiation,13,Deceased
+PID_473,79,Female,20,African,No,No,No,Yes,No,No,Yes,2.2,9.9,No,IV,3,548.48,Palliative Care,43,Deceased
+PID_474,61,Female,39,African,No,No,Yes,Yes,No,Yes,No,4.6,3.8,No,III,19.96,116.05,Radiation,29,Alive
+PID_475,76,Female,32.6,African,Yes,Yes,No,Yes,No,Yes,No,4.3,2,Yes,III,5.54,23.11,Chemotherapy,8,Alive
+PID_476,51,Male,26.7,Asian,No,No,No,Yes,No,Yes,Yes,8,2,Yes,I,14.62,51.13,Palliative Care,51,Alive
+PID_477,52,Male,22.7,African,Yes,No,Yes,Yes,Yes,Yes,No,7.4,7.5,Yes,II,18.21,954.26,Chemotherapy,42,Deceased
+PID_478,31,Male,28.8,Asian,Yes,Yes,Yes,No,No,Yes,No,4.3,8.7,Yes,III,5.1,142.29,Radiation,31,Deceased
+PID_479,56,Female,22.7,African,No,Yes,Yes,Yes,No,Yes,No,3.3,3.3,Yes,I,18.21,708.48,Surgery,26,Deceased
+PID_480,71,Male,22.1,Other,Yes,No,Yes,No,No,No,No,3.2,1.2,No,II,6.53,67.93,Chemotherapy,18,Deceased
+PID_481,31,Female,31.8,Other,Yes,Yes,No,No,Yes,No,Yes,7.7,3,No,II,19.54,108.16,Chemotherapy,58,Alive
+PID_482,55,Female,29.7,Asian,No,Yes,Yes,Yes,Yes,No,Yes,0.5,1.5,Yes,II,5.98,508.88,Surgery,18,Alive
+PID_483,46,Female,32.9,Other,No,Yes,No,No,No,Yes,Yes,0.1,1.9,No,III,19.09,464.87,Radiation,57,Deceased
+PID_484,69,Female,38.5,Asian,No,Yes,Yes,Yes,No,No,No,8,4.9,No,II,1.54,951.58,Chemotherapy,7,Alive
+PID_485,62,Female,29.9,Other,Yes,Yes,Yes,No,No,Yes,No,4.8,3.1,No,III,14.33,944.84,Radiation,48,Deceased
+PID_486,38,Female,31,Other,Yes,Yes,No,No,Yes,Yes,Yes,1.3,5.6,Yes,I,10.88,779.61,Radiation,38,Deceased
+PID_487,72,Male,20.4,Asian,No,Yes,No,No,No,No,Yes,2.4,3.3,No,IV,9.82,602.1,Radiation,48,Alive
+PID_488,83,Male,33.9,Hispanic,Yes,No,Yes,Yes,No,Yes,No,9.3,9.5,No,II,4.86,454.96,Surgery,16,Deceased
+PID_489,77,Female,27.1,Other,No,Yes,No,No,No,Yes,Yes,8.6,9.2,Yes,III,14.26,356.18,Radiation,55,Deceased
+PID_490,68,Female,39.5,African,No,No,No,Yes,Yes,Yes,Yes,7.1,6.1,No,III,4.22,947.09,Radiation,56,Deceased
+PID_491,58,Male,36.2,Hispanic,Yes,No,No,No,No,Yes,No,4.8,4.2,Yes,II,11.28,602.91,Palliative Care,33,Alive
+PID_492,71,Female,29.7,Asian,No,No,No,No,No,Yes,Yes,5.2,4.4,No,IV,5.44,579.07,Palliative Care,56,Deceased
+PID_493,84,Female,21.1,Hispanic,Yes,Yes,No,No,Yes,Yes,No,9.8,4.7,Yes,III,19.13,231.9,Palliative Care,51,Deceased
+PID_494,55,Male,37,Caucasian,Yes,Yes,No,No,Yes,No,Yes,9.7,7.5,Yes,II,1.06,46.7,Chemotherapy,3,Deceased
+PID_495,64,Female,35.7,Caucasian,No,No,No,Yes,No,Yes,No,2.2,5.1,No,I,4.39,945.19,Chemotherapy,38,Alive
+PID_496,79,Female,22.5,Other,Yes,Yes,No,Yes,Yes,Yes,No,8.1,8.7,No,IV,5.23,313.74,Palliative Care,4,Deceased
+PID_497,54,Female,24.8,Other,No,No,Yes,No,No,Yes,No,2,9.5,Yes,III,8.57,442.59,Surgery,36,Deceased
+PID_498,53,Male,35.6,African,Yes,Yes,No,No,Yes,Yes,No,2.1,4,Yes,II,5.04,114.64,Surgery,4,Deceased
+PID_499,42,Male,22.5,Hispanic,Yes,Yes,Yes,Yes,Yes,No,No,6.8,6,No,II,10.08,836.92,Palliative Care,42,Deceased
+PID_500,89,Male,38.2,Caucasian,Yes,No,No,Yes,No,No,Yes,4.1,1.9,No,IV,17.51,27.63,Chemotherapy,9,Deceased
+PID_501,87,Female,27.6,Other,No,No,No,Yes,No,Yes,Yes,9.3,2.8,No,III,14.39,833.99,Chemotherapy,40,Deceased
+PID_502,36,Female,20.4,Hispanic,Yes,No,No,Yes,No,Yes,Yes,0.9,4.7,No,III,11.81,140.29,Surgery,51,Alive
+PID_503,86,Male,36,Other,No,Yes,No,No,Yes,Yes,No,5.1,2.9,Yes,II,2.24,886.56,Radiation,17,Deceased
+PID_504,65,Female,26.5,Other,Yes,No,Yes,No,No,No,Yes,9.2,8.9,Yes,III,14.03,729.77,Surgery,17,Alive
+PID_505,74,Female,29.8,Caucasian,Yes,Yes,Yes,Yes,No,No,No,9,2.4,Yes,II,3.75,164.67,Radiation,33,Deceased
+PID_506,49,Female,20.9,Caucasian,No,Yes,No,Yes,No,No,No,1.6,5.1,No,II,15.83,565.82,Chemotherapy,20,Deceased
+PID_507,30,Female,18.6,Other,No,Yes,Yes,Yes,No,No,Yes,3.7,6.5,No,III,5.38,312.66,Chemotherapy,14,Alive
+PID_508,37,Female,32.2,Asian,No,No,No,Yes,No,Yes,No,6.2,7.2,Yes,IV,8.63,178.23,Palliative Care,22,Deceased
+PID_509,75,Male,29.6,Other,No,No,No,Yes,Yes,No,Yes,1.6,4.4,Yes,II,7.33,859.18,Chemotherapy,52,Deceased
+PID_510,45,Female,31.3,Other,No,No,Yes,Yes,No,No,No,9.7,8.8,Yes,II,17.25,403.52,Radiation,27,Alive
+PID_511,43,Male,35.6,African,Yes,Yes,Yes,No,No,Yes,No,9.1,6.1,Yes,III,2.97,398.54,Surgery,43,Deceased
+PID_512,41,Female,32.4,African,Yes,Yes,No,No,Yes,Yes,Yes,1.7,5,Yes,III,11.53,169.89,Palliative Care,3,Alive
+PID_513,80,Male,22.3,African,No,No,No,No,No,No,No,1.2,1.6,Yes,IV,3.27,383.07,Radiation,24,Deceased
+PID_514,52,Female,26.3,Asian,Yes,Yes,Yes,Yes,No,No,Yes,0.9,5.2,No,III,14.24,871.62,Surgery,30,Deceased
+PID_515,44,Male,38,Asian,Yes,Yes,No,Yes,No,No,No,9.1,8.4,Yes,I,18.15,363.13,Surgery,8,Deceased
+PID_516,57,Female,35.1,Other,Yes,No,Yes,Yes,No,No,Yes,1.9,6.5,Yes,IV,8.97,951.6,Surgery,22,Deceased
+PID_517,63,Male,30.5,African,No,No,No,No,No,Yes,No,4.2,8.5,Yes,III,10.02,946.31,Chemotherapy,25,Deceased
+PID_518,31,Female,24,Asian,Yes,No,No,Yes,Yes,Yes,Yes,4.5,5.4,Yes,IV,18.58,144.9,Surgery,10,Alive
+PID_519,61,Male,25,Caucasian,Yes,Yes,Yes,Yes,Yes,No,Yes,6,2.1,Yes,III,10.66,177.31,Chemotherapy,49,Deceased
+PID_520,52,Female,34.2,Other,Yes,Yes,Yes,No,Yes,No,No,0.7,1.1,Yes,IV,10.01,862.67,Surgery,29,Deceased
+PID_521,51,Male,36.8,Hispanic,No,Yes,Yes,Yes,No,No,Yes,2.3,3.7,Yes,I,11.78,392.76,Surgery,40,Deceased
+PID_522,80,Male,32.9,Other,Yes,Yes,No,No,Yes,No,No,9.3,7.3,No,II,13.94,4.37,Chemotherapy,54,Deceased
+PID_523,54,Female,35.9,Hispanic,Yes,Yes,No,No,No,No,No,9.1,8.1,Yes,IV,2.58,273.87,Chemotherapy,1,Deceased
+PID_524,87,Female,35,African,No,No,No,Yes,No,Yes,Yes,7.8,3.7,No,II,16.51,597.63,Radiation,52,Deceased
+PID_525,51,Male,21.7,Hispanic,No,Yes,No,No,No,Yes,Yes,0.2,5.5,No,I,8.99,799.27,Surgery,21,Alive
+PID_526,87,Female,27.6,African,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3.3,4.8,No,III,1.91,133.39,Chemotherapy,39,Deceased
+PID_527,87,Male,21.8,Caucasian,Yes,Yes,No,No,Yes,No,Yes,6.3,4.7,Yes,IV,15.83,110.54,Radiation,24,Deceased
+PID_528,51,Male,23.6,Hispanic,No,No,No,Yes,Yes,No,Yes,2.8,3.1,Yes,I,7.85,922.09,Radiation,9,Alive
+PID_529,78,Male,37.2,Other,No,No,No,No,No,Yes,No,9.1,2.2,Yes,IV,2.46,751.15,Chemotherapy,44,Deceased
+PID_530,81,Female,28.7,African,No,No,Yes,Yes,Yes,Yes,Yes,6.3,2.8,Yes,III,12.86,589.78,Surgery,54,Deceased
+PID_531,71,Male,30,Other,No,Yes,No,No,No,No,No,0.7,1.5,Yes,III,17.66,769.19,Radiation,26,Deceased
+PID_532,35,Male,22.3,Asian,No,No,No,No,Yes,Yes,Yes,9.1,2.8,Yes,IV,17.81,428.85,Surgery,9,Deceased
+PID_533,44,Female,25.2,African,No,No,Yes,No,Yes,No,Yes,9.6,1.1,Yes,II,19.17,758.46,Surgery,20,Deceased
+PID_534,83,Female,23.5,Hispanic,No,No,No,Yes,No,No,Yes,0.8,6.6,Yes,I,17.42,371.8,Radiation,56,Deceased
+PID_535,72,Female,22.9,African,Yes,Yes,No,Yes,No,Yes,No,5.3,3.8,Yes,II,0.54,244.09,Chemotherapy,35,Deceased
+PID_536,89,Female,32.2,Other,No,No,Yes,No,Yes,Yes,Yes,3,9.8,Yes,III,7.91,729.01,Surgery,36,Alive
+PID_537,66,Male,24,Caucasian,No,Yes,No,Yes,Yes,Yes,No,3.9,2.7,No,III,16.46,419.67,Palliative Care,42,Deceased
+PID_538,62,Male,32.1,African,Yes,Yes,No,No,Yes,No,No,1.8,4.1,Yes,IV,7.64,981.38,Chemotherapy,36,Deceased
+PID_539,37,Male,19.8,Hispanic,No,No,No,Yes,No,No,No,5.8,4.2,Yes,III,12.23,349.49,Radiation,54,Deceased
+PID_540,82,Male,21.5,Asian,No,Yes,Yes,No,No,Yes,Yes,9.6,1.1,Yes,III,12.32,921.73,Palliative Care,9,Deceased
+PID_541,89,Female,24.4,Caucasian,Yes,No,No,Yes,Yes,No,No,5,8.6,No,III,7.62,932.96,Surgery,22,Alive
+PID_542,73,Male,31.3,Asian,No,Yes,No,No,Yes,No,Yes,0.8,1.3,Yes,I,18.14,241.85,Chemotherapy,1,Alive
+PID_543,73,Male,33,African,Yes,No,Yes,No,No,No,No,6.2,9.5,Yes,I,10.31,798.22,Palliative Care,5,Deceased
+PID_544,34,Female,28,Other,Yes,No,Yes,No,Yes,Yes,Yes,3.4,9,No,IV,9.56,433.07,Chemotherapy,9,Deceased
+PID_545,68,Male,28.1,Other,Yes,No,No,No,No,No,No,8.6,5.8,Yes,I,19.95,917.52,Surgery,37,Deceased
+PID_546,33,Male,34.1,Hispanic,Yes,Yes,No,Yes,No,Yes,Yes,4.3,5.9,No,II,10.12,450.12,Chemotherapy,38,Deceased
+PID_547,35,Male,18.8,Other,No,No,No,No,No,Yes,Yes,1.9,6.9,No,III,3.98,744.3,Palliative Care,19,Alive
+PID_548,74,Male,25.8,Caucasian,Yes,Yes,No,Yes,No,No,Yes,1.9,4.5,No,II,10.5,466.97,Chemotherapy,8,Alive
+PID_549,61,Male,36.1,Other,Yes,No,Yes,Yes,No,Yes,No,7.7,6.8,No,IV,16.37,227.8,Radiation,42,Deceased
+PID_550,81,Male,31.5,Hispanic,No,Yes,No,No,No,No,No,2.7,1.4,Yes,II,15.65,199.35,Radiation,43,Alive
+PID_551,59,Female,25.8,African,Yes,Yes,Yes,Yes,Yes,Yes,Yes,7.7,1.5,No,I,15.88,425.43,Palliative Care,32,Deceased
+PID_552,76,Female,38,African,Yes,No,Yes,Yes,No,Yes,No,2.1,5.1,No,II,14.31,755.49,Chemotherapy,13,Alive
+PID_553,64,Male,35.1,Other,Yes,No,No,Yes,No,No,No,3.2,5.9,Yes,III,5.46,605.07,Palliative Care,20,Deceased
+PID_554,84,Male,24.2,Asian,Yes,No,No,No,Yes,Yes,No,4.7,9,Yes,II,17.31,688.63,Chemotherapy,36,Alive
+PID_555,69,Female,32.4,African,No,No,Yes,Yes,No,Yes,No,9.4,1.9,Yes,III,17.92,282.33,Surgery,43,Alive
+PID_556,81,Male,31.3,Other,Yes,No,Yes,Yes,Yes,Yes,No,9.3,8.4,No,IV,4.29,481.44,Radiation,44,Deceased
+PID_557,45,Male,27.1,Hispanic,No,Yes,No,No,No,No,No,2.1,2.9,Yes,IV,3.04,44.4,Surgery,37,Deceased
+PID_558,42,Male,26.4,Other,No,No,Yes,No,Yes,No,No,3.6,4.5,No,II,19.52,817.53,Chemotherapy,30,Alive
+PID_559,79,Female,25.9,African,Yes,No,No,Yes,Yes,Yes,Yes,1.5,3.8,No,II,17.43,989.89,Surgery,10,Deceased
+PID_560,89,Male,31.8,Hispanic,Yes,Yes,No,No,No,Yes,Yes,5.1,4.6,Yes,III,17.92,406.88,Palliative Care,31,Alive
+PID_561,71,Female,28,Other,Yes,No,Yes,Yes,No,Yes,No,4.6,2.4,Yes,IV,17.78,10.96,Palliative Care,25,Deceased
+PID_562,59,Male,36.4,Caucasian,Yes,No,Yes,Yes,No,No,Yes,9,5.5,Yes,IV,11.06,169.79,Chemotherapy,29,Alive
+PID_563,48,Female,32.9,Hispanic,No,Yes,No,Yes,No,No,Yes,9.3,8.2,Yes,II,13.1,652.53,Radiation,24,Alive
+PID_564,46,Female,20,Caucasian,No,No,Yes,No,Yes,Yes,Yes,3.8,5,Yes,III,11.13,612.08,Palliative Care,39,Deceased
+PID_565,85,Male,32.3,Asian,No,No,No,Yes,Yes,No,No,4.9,5.4,Yes,II,1.5,787.86,Radiation,21,Alive
+PID_566,48,Female,24.3,Hispanic,Yes,No,No,No,Yes,No,No,9,8.6,No,I,15.04,253.88,Chemotherapy,41,Deceased
+PID_567,57,Male,31.2,Caucasian,No,Yes,No,No,No,No,No,8.1,7.4,No,I,10.35,763.63,Radiation,9,Alive
+PID_568,87,Female,33.1,African,Yes,No,Yes,Yes,Yes,No,No,0,5.4,Yes,II,13.13,687.98,Chemotherapy,42,Deceased
+PID_569,84,Male,23.5,African,Yes,Yes,No,No,No,Yes,No,3.2,3.3,No,II,10.3,322.81,Surgery,42,Alive
+PID_570,55,Male,28.3,Asian,Yes,No,No,No,No,No,Yes,4.2,9,No,I,10.09,545.49,Chemotherapy,2,Alive
+PID_571,66,Female,22.6,Hispanic,Yes,Yes,No,No,Yes,No,No,2.3,6.2,No,III,3.85,147.27,Surgery,4,Alive
+PID_572,55,Male,19.6,Hispanic,Yes,No,No,No,No,Yes,Yes,2,3,No,II,5.93,452.56,Chemotherapy,8,Deceased
+PID_573,82,Male,26.6,Hispanic,No,Yes,No,No,Yes,Yes,No,0.4,3.4,No,III,3.6,881.2,Palliative Care,32,Deceased
+PID_574,52,Female,26.3,Asian,No,Yes,No,Yes,No,No,Yes,6.4,8.2,No,II,4.32,421.19,Palliative Care,14,Deceased
+PID_575,38,Male,39.9,Hispanic,Yes,Yes,No,No,Yes,No,No,2.6,1.4,Yes,I,19.47,839.57,Radiation,49,Deceased
+PID_576,41,Male,28.1,African,No,Yes,No,Yes,No,Yes,No,0.5,9.9,Yes,II,3.49,590.25,Chemotherapy,13,Deceased
+PID_577,82,Female,25.7,Caucasian,Yes,Yes,No,Yes,Yes,Yes,No,2.3,2.2,Yes,II,5.75,191.88,Chemotherapy,21,Deceased
+PID_578,30,Female,31,African,Yes,Yes,No,Yes,Yes,Yes,No,8,8.2,No,III,12.02,581.11,Chemotherapy,24,Alive
+PID_579,87,Male,20.4,African,Yes,No,No,Yes,No,No,No,8.5,4.6,Yes,I,12.4,505.98,Radiation,50,Alive
+PID_580,87,Male,39.2,Caucasian,No,No,Yes,Yes,No,No,No,4.8,5.4,Yes,III,3.5,398.64,Palliative Care,18,Deceased
+PID_581,30,Female,32.2,African,Yes,Yes,No,Yes,Yes,Yes,Yes,4.2,8.9,Yes,I,15.98,119.63,Chemotherapy,45,Deceased
+PID_582,76,Female,34.7,Asian,Yes,Yes,No,No,No,No,No,9.8,4.7,No,III,15.81,416.71,Radiation,40,Alive
+PID_583,63,Male,22.2,Caucasian,No,Yes,No,No,No,Yes,Yes,2,5.8,Yes,III,5.13,72.76,Chemotherapy,26,Deceased
+PID_584,61,Female,27.3,African,No,Yes,Yes,No,No,No,No,2.2,1.4,No,I,6.13,98.77,Surgery,32,Deceased
+PID_585,83,Male,27.6,Other,No,No,No,Yes,Yes,Yes,Yes,2.9,1,Yes,II,18.79,415.92,Chemotherapy,44,Deceased
+PID_586,77,Male,36.2,African,Yes,Yes,Yes,No,Yes,Yes,Yes,1.7,3.2,Yes,I,16.6,305.38,Surgery,57,Alive
+PID_587,54,Male,18.5,Asian,Yes,No,No,No,No,No,Yes,3.8,7.1,Yes,III,14.11,925.54,Radiation,55,Deceased
+PID_588,69,Male,25,Hispanic,No,No,No,No,No,No,Yes,9.1,2.1,No,II,2.1,375.71,Radiation,56,Alive
+PID_589,74,Male,39.6,African,Yes,Yes,Yes,Yes,Yes,No,Yes,6.2,2,No,III,8.66,757.86,Palliative Care,53,Alive
+PID_590,82,Female,28.7,Hispanic,No,Yes,No,No,No,No,Yes,4.1,4.7,No,III,11.41,530.25,Chemotherapy,33,Deceased
+PID_591,30,Female,26.7,Other,No,No,Yes,Yes,Yes,No,No,9.3,6.8,No,IV,4.15,704.09,Radiation,52,Alive
+PID_592,45,Female,21.1,African,Yes,No,Yes,No,No,No,Yes,0.5,7.4,No,III,9.24,260.12,Palliative Care,31,Alive
+PID_593,68,Female,39.4,Caucasian,Yes,Yes,No,Yes,No,Yes,No,2.1,2.6,Yes,III,12.22,941.9,Chemotherapy,18,Alive
+PID_594,34,Male,18.9,Hispanic,No,Yes,No,Yes,No,No,No,5.7,1.7,Yes,II,6.88,530.09,Radiation,35,Deceased
+PID_595,51,Male,34.3,Other,No,Yes,No,Yes,Yes,Yes,Yes,6.2,9.5,No,IV,15.73,831.32,Surgery,12,Alive
+PID_596,58,Male,35,Caucasian,No,No,No,No,Yes,Yes,Yes,0.4,3.3,No,III,16.89,365.05,Radiation,51,Alive
+PID_597,84,Male,23.7,Caucasian,No,No,Yes,No,Yes,No,No,4,8.7,Yes,II,6.81,100.21,Surgery,25,Deceased
+PID_598,32,Female,32.9,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,6.5,8.8,No,IV,16.85,673.71,Palliative Care,45,Deceased
+PID_599,41,Male,20.5,Caucasian,No,No,No,No,No,Yes,Yes,7,8,Yes,II,2.52,7.76,Palliative Care,31,Deceased
+PID_600,55,Male,24,African,No,No,Yes,Yes,No,No,Yes,6.4,2.5,No,IV,16.84,475.29,Chemotherapy,10,Alive
+PID_601,45,Female,35.4,African,No,Yes,Yes,Yes,Yes,No,Yes,3.2,8.4,Yes,IV,3.48,192.8,Chemotherapy,47,Alive
+PID_602,80,Female,37.1,African,Yes,Yes,No,No,No,No,Yes,0.9,7.9,No,I,2.12,627.38,Chemotherapy,52,Deceased
+PID_603,66,Female,31.6,Other,Yes,No,Yes,No,No,Yes,Yes,4.3,6.4,No,III,13.01,979.42,Palliative Care,34,Alive
+PID_604,51,Female,29.4,Other,No,No,Yes,No,Yes,No,Yes,1.3,4,Yes,II,9.7,464.4,Surgery,51,Deceased
+PID_605,86,Male,21.9,Other,Yes,Yes,No,Yes,No,No,No,9.5,3.4,Yes,II,18.2,817.5,Chemotherapy,3,Deceased
+PID_606,58,Male,19.9,Asian,Yes,Yes,Yes,Yes,No,No,Yes,4.8,2.1,No,II,7.58,507.78,Chemotherapy,46,Alive
+PID_607,43,Female,21,Other,Yes,Yes,No,No,Yes,No,No,3.2,5.6,No,III,6.1,495.84,Palliative Care,39,Deceased
+PID_608,57,Male,23.4,African,No,Yes,Yes,Yes,No,Yes,No,7.7,6.3,Yes,II,10.26,930.42,Surgery,8,Alive
+PID_609,34,Male,25.8,African,No,Yes,No,No,No,No,No,5,4.2,No,I,9.39,889.97,Radiation,32,Deceased
+PID_610,76,Male,26.7,Asian,Yes,No,Yes,Yes,No,Yes,No,3.1,5.3,Yes,III,7.22,785.8,Chemotherapy,43,Deceased
+PID_611,78,Female,25.9,Asian,No,No,Yes,No,Yes,No,Yes,8.1,4.3,Yes,I,14.03,296.26,Radiation,29,Deceased
+PID_612,59,Male,23.6,Other,No,No,No,No,Yes,Yes,No,8.7,6.8,No,I,15.31,545.01,Radiation,22,Alive
+PID_613,75,Female,29.5,Hispanic,Yes,No,No,Yes,No,Yes,No,6.7,9.1,Yes,II,17.13,223.9,Chemotherapy,20,Alive
+PID_614,81,Male,36.2,Asian,Yes,Yes,No,No,No,Yes,No,0.5,2.5,Yes,II,19.47,443.92,Palliative Care,6,Alive
+PID_615,34,Male,24.5,Caucasian,No,Yes,No,No,No,No,No,5.7,4.4,No,II,5.7,484.21,Chemotherapy,43,Alive
+PID_616,41,Male,38.8,African,Yes,Yes,Yes,Yes,Yes,Yes,No,7.6,2.3,Yes,I,14.46,831.64,Surgery,49,Deceased
+PID_617,45,Female,37.3,Caucasian,No,No,Yes,No,Yes,No,Yes,1.4,6.6,Yes,IV,8.19,896.03,Surgery,29,Deceased
+PID_618,55,Male,22,African,No,No,Yes,Yes,Yes,No,Yes,2.3,7.6,Yes,III,13.7,414.62,Chemotherapy,42,Deceased
+PID_619,55,Female,35.4,African,Yes,No,No,No,No,No,No,8.8,9.4,Yes,II,9.78,17.7,Radiation,56,Deceased
+PID_620,77,Female,30.9,Asian,No,Yes,Yes,Yes,No,No,Yes,0.2,3.5,No,II,19.88,861.77,Surgery,17,Deceased
+PID_621,50,Female,30.7,Asian,No,No,Yes,No,No,No,Yes,7.5,9.6,Yes,II,14.71,174.28,Surgery,31,Deceased
+PID_622,68,Male,26.9,Caucasian,Yes,Yes,No,No,No,Yes,No,4.7,1.6,No,III,19.07,621.88,Chemotherapy,53,Alive
+PID_623,65,Male,29.3,African,Yes,Yes,No,No,No,No,No,4.5,6.4,Yes,I,16.78,24.97,Chemotherapy,34,Deceased
+PID_624,62,Male,27,Caucasian,Yes,Yes,Yes,No,Yes,Yes,No,0.1,1.5,No,I,18.11,399.51,Palliative Care,38,Deceased
+PID_625,59,Male,30.1,Hispanic,No,Yes,No,Yes,No,Yes,Yes,8.2,9,Yes,IV,16.38,985.96,Chemotherapy,57,Deceased
+PID_626,66,Female,32,Caucasian,Yes,Yes,Yes,Yes,No,Yes,No,3.6,5.8,No,II,9.45,100.69,Chemotherapy,37,Deceased
+PID_627,52,Female,33,Other,Yes,Yes,Yes,Yes,No,Yes,Yes,5.4,7,Yes,II,5.41,423.69,Surgery,4,Deceased
+PID_628,87,Female,29.9,Caucasian,Yes,No,No,Yes,Yes,Yes,Yes,6.8,8.5,Yes,IV,7.72,307.15,Surgery,2,Alive
+PID_629,39,Male,34,Other,Yes,Yes,Yes,Yes,No,Yes,Yes,7,2.4,Yes,III,0.89,905.09,Surgery,12,Deceased
+PID_630,83,Female,21.5,Other,No,Yes,No,Yes,Yes,Yes,No,9.6,1.3,Yes,II,10.72,869.34,Radiation,35,Alive
+PID_631,34,Male,23.1,Other,No,No,No,Yes,Yes,No,Yes,5.3,8.9,No,III,10.35,237.7,Surgery,6,Deceased
+PID_632,65,Female,36.1,Hispanic,Yes,Yes,Yes,No,Yes,Yes,No,4,3.8,No,I,10.74,81.19,Surgery,56,Deceased
+PID_633,63,Male,25.4,Caucasian,No,No,Yes,No,Yes,No,No,9.5,2.2,Yes,III,19.49,627.14,Chemotherapy,46,Deceased
+PID_634,81,Male,19,Caucasian,Yes,No,Yes,No,Yes,Yes,No,6.4,5.2,No,II,18.27,336.37,Palliative Care,8,Deceased
+PID_635,60,Female,21.8,Hispanic,Yes,No,No,No,No,Yes,No,3,6.4,Yes,IV,3.65,672.08,Surgery,21,Deceased
+PID_636,39,Female,23.3,African,No,Yes,Yes,Yes,No,Yes,No,1.3,1.3,Yes,IV,7.69,32.12,Palliative Care,53,Alive
+PID_637,87,Female,39.1,Asian,No,Yes,No,Yes,Yes,Yes,Yes,8.4,3.5,No,IV,8.77,133.4,Surgery,58,Alive
+PID_638,48,Female,30.8,Caucasian,Yes,No,No,Yes,Yes,No,Yes,3.6,1.3,No,IV,7.53,686.37,Surgery,46,Deceased
+PID_639,87,Male,38.6,Asian,Yes,Yes,Yes,No,Yes,No,Yes,6.6,4.8,No,III,16.07,212.37,Palliative Care,35,Alive
+PID_640,61,Female,30.9,Hispanic,No,Yes,No,Yes,No,No,Yes,4.7,9.1,Yes,II,10.72,857.59,Chemotherapy,48,Alive
+PID_641,30,Female,28.8,African,Yes,No,Yes,No,No,Yes,Yes,2,9.8,Yes,II,11.66,58.59,Surgery,15,Alive
+PID_642,85,Female,25.2,African,No,No,Yes,Yes,Yes,Yes,No,6,6.7,No,III,17.13,215.48,Palliative Care,7,Deceased
+PID_643,34,Male,31.5,African,Yes,Yes,Yes,Yes,No,Yes,No,0.6,2.5,Yes,IV,16.22,998.56,Surgery,15,Alive
+PID_644,74,Male,21.5,Hispanic,Yes,No,Yes,Yes,No,No,Yes,4.1,9.2,No,II,3.08,433.08,Radiation,45,Deceased
+PID_645,33,Female,37.8,Other,No,No,Yes,Yes,Yes,Yes,Yes,5.5,5.6,No,IV,14.42,702.97,Radiation,6,Deceased
+PID_646,45,Male,36.3,Other,No,No,Yes,No,Yes,No,Yes,4.4,2.4,No,IV,8.99,182.66,Radiation,47,Deceased
+PID_647,53,Female,25.3,Asian,No,Yes,Yes,No,No,No,No,7.5,9.3,No,IV,6.25,609.87,Radiation,17,Alive
+PID_648,45,Male,39,Other,No,Yes,No,Yes,No,Yes,No,8.3,7.8,No,IV,1.48,726.11,Chemotherapy,4,Deceased
+PID_649,84,Male,36.2,Other,No,Yes,Yes,No,No,Yes,No,7.7,7.6,No,II,10,314.48,Radiation,22,Deceased
+PID_650,31,Male,32.8,African,No,No,No,Yes,Yes,No,Yes,0.4,7.4,Yes,I,7.43,828.9,Palliative Care,32,Deceased
+PID_651,78,Male,21.1,African,No,Yes,No,Yes,Yes,No,Yes,1.9,2.8,Yes,I,5.4,603.42,Surgery,59,Deceased
+PID_652,57,Female,28.8,Asian,Yes,No,No,Yes,Yes,No,Yes,5.4,2.9,No,II,14.05,389.12,Palliative Care,22,Deceased
+PID_653,61,Female,29.4,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,9.3,7.2,No,III,15.5,557.64,Radiation,27,Alive
+PID_654,56,Female,23.5,Asian,Yes,Yes,No,No,No,Yes,No,8.3,3,No,IV,5.27,576.76,Chemotherapy,46,Deceased
+PID_655,49,Male,20.2,Asian,No,No,No,Yes,Yes,Yes,Yes,8.4,4.9,Yes,IV,1.46,165.54,Radiation,15,Alive
+PID_656,53,Female,35.2,Hispanic,No,Yes,Yes,Yes,No,Yes,Yes,3,8,No,III,17.05,402.73,Radiation,44,Alive
+PID_657,41,Female,21.1,Hispanic,No,No,Yes,No,Yes,Yes,Yes,4.3,8.1,No,I,0.69,343.43,Chemotherapy,51,Deceased
+PID_658,79,Female,31.3,Asian,Yes,Yes,No,Yes,No,Yes,No,4.7,5.1,No,I,18.77,400.9,Chemotherapy,22,Deceased
+PID_659,64,Male,38.6,Asian,No,Yes,Yes,No,Yes,No,No,1.6,8.1,Yes,I,12.74,761.11,Chemotherapy,28,Alive
+PID_660,89,Male,37.3,Asian,No,No,Yes,Yes,No,No,Yes,0.3,8.5,No,II,6.78,482.54,Chemotherapy,42,Deceased
+PID_661,62,Male,24.5,Other,Yes,No,Yes,Yes,No,No,No,9.5,6.9,Yes,III,5.31,940.32,Chemotherapy,38,Deceased
+PID_662,62,Female,36.8,Hispanic,No,No,Yes,Yes,Yes,Yes,No,2.4,3.1,Yes,I,0.68,293.68,Chemotherapy,57,Alive
+PID_663,80,Female,18.5,Asian,Yes,Yes,No,Yes,Yes,No,No,2.4,3.5,No,II,5.09,415.7,Surgery,9,Deceased
+PID_664,72,Female,18.9,African,Yes,Yes,Yes,Yes,Yes,Yes,No,0.8,3.8,Yes,I,3.19,786.96,Radiation,34,Alive
+PID_665,66,Male,31.5,African,No,Yes,Yes,Yes,Yes,Yes,No,9.3,2.1,Yes,III,12.44,546.02,Radiation,36,Alive
+PID_666,41,Male,26.3,Other,No,No,Yes,No,Yes,No,Yes,5.8,3.5,Yes,II,3.75,547.03,Chemotherapy,9,Alive
+PID_667,32,Female,26.8,Other,No,No,No,Yes,No,Yes,Yes,6.7,2.9,No,II,10.81,53.34,Palliative Care,15,Alive
+PID_668,30,Male,30.6,Caucasian,Yes,No,No,No,Yes,No,Yes,9.1,5.1,Yes,II,12.01,398.6,Chemotherapy,45,Alive
+PID_669,62,Male,22.6,Caucasian,Yes,Yes,Yes,No,Yes,No,No,3.5,9.2,No,IV,6.31,270.73,Surgery,20,Alive
+PID_670,69,Male,23.1,Caucasian,Yes,Yes,Yes,Yes,Yes,Yes,No,6.2,1.9,No,II,1.18,999.34,Palliative Care,8,Deceased
+PID_671,39,Male,28.9,Other,No,No,No,No,Yes,No,No,0.4,7.5,No,III,1.23,308.36,Surgery,58,Deceased
+PID_672,72,Female,34.7,Other,No,Yes,Yes,Yes,Yes,No,No,1.9,7.2,Yes,III,1.01,884.5,Palliative Care,28,Deceased
+PID_673,73,Male,31.8,Other,No,No,Yes,No,No,No,Yes,8.3,1.9,No,III,14.91,676.23,Palliative Care,51,Deceased
+PID_674,58,Male,24.9,African,No,Yes,No,Yes,Yes,No,Yes,7.7,9.3,Yes,IV,6.7,340.92,Chemotherapy,19,Alive
+PID_675,42,Male,27.8,Other,Yes,Yes,Yes,No,Yes,Yes,Yes,3.5,6.1,Yes,II,16.03,543.53,Surgery,57,Deceased
+PID_676,41,Male,22.2,African,Yes,No,Yes,No,Yes,No,Yes,3.8,4.3,Yes,II,8.92,840.54,Palliative Care,16,Deceased
+PID_677,60,Female,20.1,Caucasian,Yes,Yes,No,Yes,No,No,Yes,5.3,7.8,Yes,I,9.33,883.37,Surgery,11,Alive
+PID_678,75,Female,35.3,Caucasian,Yes,Yes,No,No,No,No,Yes,0,3.3,No,III,10.5,160.39,Chemotherapy,42,Alive
+PID_679,31,Male,24.2,Caucasian,No,No,Yes,Yes,Yes,Yes,No,2.4,7.2,No,II,14.4,339.57,Chemotherapy,8,Deceased
+PID_680,80,Male,22.3,Asian,No,No,No,Yes,Yes,No,No,2.1,1.4,Yes,I,5.83,335.22,Chemotherapy,33,Deceased
+PID_681,79,Male,33.4,Asian,No,Yes,Yes,Yes,No,Yes,Yes,2.5,8.6,No,III,2.87,42.04,Chemotherapy,10,Deceased
+PID_682,64,Male,31.8,Hispanic,Yes,No,Yes,Yes,No,No,No,8.1,5,No,III,11.34,598.24,Radiation,18,Alive
+PID_683,52,Male,32.1,Hispanic,Yes,Yes,Yes,Yes,No,No,Yes,2.8,6.7,No,I,6.88,854.82,Palliative Care,35,Alive
+PID_684,46,Male,23.4,Hispanic,No,No,No,No,Yes,No,Yes,1.9,3,Yes,III,9.13,381.57,Radiation,43,Deceased
+PID_685,55,Female,23.5,Asian,No,Yes,No,No,Yes,Yes,No,5,7.1,No,III,13.12,740.04,Chemotherapy,50,Deceased
+PID_686,37,Male,23.2,Asian,Yes,Yes,Yes,No,No,Yes,Yes,8.7,8,Yes,I,10.14,627.7,Palliative Care,3,Alive
+PID_687,58,Female,22.2,Hispanic,No,No,Yes,Yes,Yes,Yes,Yes,2.4,5.3,No,II,12.6,375.65,Palliative Care,40,Alive
+PID_688,55,Female,32.6,Hispanic,Yes,Yes,No,No,No,Yes,Yes,0.8,6.6,Yes,III,11.11,141.06,Surgery,27,Deceased
+PID_689,39,Male,36.7,Other,Yes,Yes,No,No,No,Yes,No,3.6,5.1,Yes,III,14.93,709.32,Chemotherapy,59,Deceased
+PID_690,55,Female,34.1,Hispanic,Yes,No,No,No,No,Yes,No,7.5,9,Yes,II,14.27,854.57,Radiation,28,Alive
+PID_691,63,Female,35.5,Other,No,No,Yes,No,Yes,No,No,5.5,5.5,No,II,10.92,685.85,Surgery,46,Deceased
+PID_692,80,Female,27.2,African,No,Yes,No,No,No,Yes,No,8.2,8.6,Yes,III,13.74,17.88,Palliative Care,6,Deceased
+PID_693,70,Female,32.6,Asian,Yes,No,No,Yes,No,No,Yes,9.6,8.2,No,IV,17.53,216.23,Radiation,47,Deceased
+PID_694,36,Female,26.1,Hispanic,No,No,Yes,Yes,Yes,Yes,No,7.9,4.7,Yes,III,8.93,69.48,Chemotherapy,14,Alive
+PID_695,33,Female,29.8,Asian,Yes,Yes,Yes,No,No,Yes,No,6,3.1,No,I,8.55,570.39,Radiation,7,Alive
+PID_696,87,Male,28.9,Asian,Yes,Yes,Yes,Yes,Yes,Yes,No,4.9,4.7,Yes,II,15.4,756.48,Radiation,10,Deceased
+PID_697,82,Female,22.3,Asian,Yes,No,No,Yes,No,No,Yes,0.4,8.4,No,IV,11.86,110.58,Radiation,15,Alive
+PID_698,79,Female,26.8,African,Yes,No,Yes,No,Yes,Yes,No,9.8,3,Yes,I,1.88,838.34,Surgery,31,Deceased
+PID_699,74,Female,39.2,Caucasian,No,No,Yes,No,No,Yes,No,3.8,5.7,Yes,IV,17.9,555.51,Palliative Care,29,Deceased
+PID_700,40,Male,23.8,Hispanic,Yes,Yes,Yes,Yes,No,No,Yes,1.5,8.3,Yes,IV,1.1,689.97,Radiation,42,Alive
+PID_701,58,Female,21.4,Caucasian,Yes,Yes,Yes,No,No,No,Yes,6.7,4.2,No,I,15.09,971.4,Palliative Care,54,Deceased
+PID_702,85,Male,27.5,Caucasian,No,Yes,No,Yes,No,No,Yes,2.8,6.8,Yes,IV,15.3,83.68,Surgery,17,Deceased
+PID_703,65,Female,35.5,Caucasian,Yes,Yes,Yes,Yes,No,No,Yes,5.9,3.2,Yes,II,19.09,901.22,Chemotherapy,59,Deceased
+PID_704,54,Male,31,Asian,Yes,Yes,No,No,Yes,Yes,No,5.9,2,Yes,IV,1.56,126.1,Chemotherapy,51,Alive
+PID_705,50,Male,33.1,Other,No,Yes,No,Yes,Yes,No,Yes,4.5,8.1,Yes,II,12.14,392.96,Radiation,29,Deceased
+PID_706,86,Female,22.6,Asian,No,Yes,No,Yes,No,Yes,No,8.4,1.9,No,II,8.84,851.44,Surgery,49,Deceased
+PID_707,65,Female,31.8,Asian,No,No,Yes,Yes,No,Yes,No,2.6,3.4,Yes,III,6.95,906.25,Chemotherapy,44,Deceased
+PID_708,39,Male,25.5,Caucasian,Yes,No,No,No,No,No,No,4.5,8.7,Yes,III,2.26,506.37,Surgery,15,Deceased
+PID_709,66,Female,36.4,Asian,No,Yes,Yes,No,Yes,Yes,No,5.4,4.1,No,I,11.47,594.1,Surgery,26,Deceased
+PID_710,38,Male,32,Caucasian,No,Yes,Yes,No,Yes,No,No,6.6,9.8,No,III,9.84,708.15,Radiation,12,Deceased
+PID_711,53,Male,22.8,Other,Yes,Yes,Yes,No,No,Yes,Yes,7.8,9.8,No,I,2.54,832.76,Radiation,25,Deceased
+PID_712,64,Male,19.9,Hispanic,Yes,No,No,Yes,Yes,No,No,3.9,3.4,Yes,II,12.44,121.51,Surgery,41,Alive
+PID_713,78,Male,19.4,Caucasian,Yes,Yes,Yes,No,No,No,No,6.5,1.4,No,II,14.89,810.07,Surgery,5,Deceased
+PID_714,64,Male,26.5,Other,Yes,No,Yes,No,No,No,No,1.5,7.3,No,II,15.46,481.28,Radiation,4,Deceased
+PID_715,77,Female,24.2,Hispanic,Yes,No,Yes,No,No,No,Yes,9.3,5.1,No,II,18.15,450.62,Surgery,44,Alive
+PID_716,65,Male,32.4,African,No,No,No,No,Yes,No,No,3.8,1.9,Yes,I,8.48,423.9,Radiation,48,Alive
+PID_717,47,Male,29.2,Caucasian,No,No,No,Yes,No,No,No,7.3,7.4,Yes,I,19.08,509.21,Palliative Care,41,Deceased
+PID_718,78,Female,24.2,Caucasian,No,No,No,Yes,No,Yes,Yes,0.2,1.3,Yes,I,17.38,945.05,Surgery,57,Deceased
+PID_719,68,Male,21.7,African,Yes,Yes,Yes,Yes,No,Yes,No,2.1,8.8,No,II,6.28,548.2,Radiation,31,Deceased
+PID_720,61,Female,21.2,African,Yes,Yes,No,No,Yes,Yes,No,4.9,2.2,Yes,IV,3.61,953.18,Surgery,3,Alive
+PID_721,53,Female,37.1,Caucasian,Yes,No,Yes,No,Yes,No,Yes,8.8,2.1,No,I,8.99,180.29,Radiation,53,Alive
+PID_722,52,Female,23.7,African,No,Yes,Yes,Yes,Yes,Yes,No,5.3,2.6,No,IV,8.34,724.14,Surgery,3,Alive
+PID_723,61,Male,32.5,Asian,No,No,No,No,No,No,No,9.3,9.6,No,III,11.73,812.24,Chemotherapy,26,Deceased
+PID_724,66,Male,35.9,Hispanic,Yes,No,Yes,No,Yes,Yes,No,4.8,7.2,Yes,III,11.88,679.13,Chemotherapy,50,Deceased
+PID_725,41,Male,31.7,Hispanic,No,Yes,No,Yes,No,Yes,No,4.9,8.2,No,III,15.12,606.92,Surgery,17,Alive
+PID_726,78,Female,37,Hispanic,Yes,Yes,Yes,Yes,Yes,No,No,1.2,4.6,No,IV,10.44,564.81,Chemotherapy,10,Alive
+PID_727,84,Male,26.9,Asian,No,Yes,No,No,No,Yes,Yes,8,4,Yes,I,2.54,860.93,Surgery,2,Deceased
+PID_728,42,Female,39.1,African,No,Yes,Yes,No,Yes,Yes,Yes,2.5,3.1,No,III,17.24,821.65,Surgery,24,Deceased
+PID_729,52,Male,21.4,Other,No,Yes,Yes,No,No,Yes,Yes,9,5.3,No,III,6.54,122.29,Palliative Care,11,Alive
+PID_730,54,Female,20.7,African,Yes,No,Yes,Yes,Yes,No,No,9.1,6,No,III,19.44,848.59,Palliative Care,24,Deceased
+PID_731,64,Male,32.7,Caucasian,No,Yes,Yes,Yes,Yes,Yes,No,9.4,6.7,Yes,IV,2.8,414.07,Chemotherapy,35,Alive
+PID_732,70,Male,38.8,Hispanic,No,Yes,Yes,Yes,Yes,No,No,5.2,3.3,No,I,19.19,253.7,Palliative Care,23,Deceased
+PID_733,59,Male,35.9,African,Yes,Yes,No,Yes,No,Yes,Yes,6.8,9.5,Yes,III,2.27,869.77,Palliative Care,32,Deceased
+PID_734,46,Female,20.1,Other,No,No,Yes,No,Yes,Yes,No,7.8,2.5,Yes,III,5.01,432.02,Surgery,23,Deceased
+PID_735,78,Female,24.5,Caucasian,Yes,Yes,No,Yes,Yes,Yes,No,1.3,9.7,No,II,1.41,808.36,Radiation,34,Alive
+PID_736,49,Male,38.5,Asian,Yes,No,No,Yes,Yes,Yes,No,6,1.1,No,II,14.25,263.4,Surgery,41,Alive
+PID_737,77,Male,23.9,Asian,Yes,Yes,No,No,Yes,No,Yes,0.3,5.3,No,III,17.08,3.93,Palliative Care,19,Deceased
+PID_738,54,Female,35.3,Other,Yes,Yes,Yes,No,No,Yes,Yes,5,4,No,IV,8.96,495.46,Surgery,2,Alive
+PID_739,51,Female,36.2,Caucasian,Yes,No,Yes,No,Yes,No,No,1.5,5,Yes,II,18.61,100.23,Chemotherapy,51,Deceased
+PID_740,42,Female,29.2,Hispanic,No,Yes,Yes,Yes,No,No,No,1.8,6.1,Yes,IV,12.01,754.38,Radiation,2,Deceased
+PID_741,88,Male,26.8,African,Yes,Yes,No,No,No,Yes,No,3.7,4.9,No,II,12.79,276.08,Palliative Care,15,Deceased
+PID_742,48,Female,28.2,Caucasian,Yes,No,Yes,No,No,Yes,Yes,4.3,4.7,Yes,I,16.99,443.65,Palliative Care,56,Deceased
+PID_743,78,Male,23.4,Asian,Yes,Yes,Yes,Yes,No,No,Yes,6.2,7.6,No,I,6.29,87.03,Surgery,21,Deceased
+PID_744,65,Female,37.6,Other,Yes,No,No,Yes,Yes,No,Yes,0.7,7.2,No,I,7.41,286.66,Surgery,35,Deceased
+PID_745,41,Male,28.2,Other,No,No,No,No,No,Yes,No,5,8.5,No,II,18.17,781.49,Surgery,5,Alive
+PID_746,70,Female,37.5,African,Yes,No,No,Yes,No,Yes,Yes,1.8,3.2,No,II,18.07,151.59,Surgery,43,Alive
+PID_747,48,Female,20.8,Other,No,No,No,No,No,Yes,No,5.7,6.5,Yes,III,19.54,647.16,Palliative Care,27,Alive
+PID_748,41,Female,39.7,Other,Yes,No,No,No,No,Yes,No,6.4,6.3,Yes,III,18.09,917.43,Surgery,24,Alive
+PID_749,38,Female,28,Caucasian,No,Yes,No,Yes,Yes,Yes,Yes,5.6,4.3,No,I,2.98,679.84,Palliative Care,7,Deceased
+PID_750,36,Female,19.5,Hispanic,Yes,Yes,Yes,No,Yes,No,No,7.4,5.4,No,II,16.56,811.02,Surgery,6,Deceased
+PID_751,57,Male,19.3,African,Yes,Yes,No,Yes,No,Yes,Yes,3.4,3.8,Yes,II,8.49,108.97,Radiation,46,Deceased
+PID_752,43,Female,34.5,Caucasian,No,No,Yes,Yes,No,Yes,No,7.7,2.3,Yes,III,19.82,250.73,Radiation,33,Deceased
+PID_753,60,Female,32.7,Hispanic,Yes,No,Yes,Yes,No,No,No,4.3,2.9,Yes,I,9.71,894.54,Surgery,58,Deceased
+PID_754,81,Female,35.7,Caucasian,No,No,Yes,No,Yes,Yes,Yes,4.8,1.9,No,I,11.3,715.11,Surgery,49,Deceased
+PID_755,48,Male,20.8,Caucasian,Yes,No,No,Yes,Yes,Yes,No,6.5,7.1,Yes,IV,10.83,639.55,Chemotherapy,17,Alive
+PID_756,87,Female,19.3,Other,No,Yes,Yes,Yes,Yes,No,No,0.2,6.9,No,IV,6.77,663.77,Radiation,46,Deceased
+PID_757,76,Male,29.4,Hispanic,Yes,Yes,No,No,Yes,Yes,No,6.5,9.6,No,I,1.96,414.2,Palliative Care,42,Deceased
+PID_758,45,Female,26.8,African,Yes,No,No,No,Yes,No,No,6.2,7.6,Yes,II,17.97,44.56,Radiation,30,Deceased
+PID_759,82,Female,28.4,African,No,No,Yes,No,No,Yes,No,3.1,1.5,No,II,16.15,784.44,Palliative Care,8,Alive
+PID_760,34,Male,39.8,Hispanic,Yes,Yes,No,No,Yes,Yes,No,0.9,9,Yes,III,3.22,678.71,Surgery,40,Deceased
+PID_761,64,Female,39.4,Other,Yes,No,Yes,Yes,Yes,Yes,No,0.9,8.8,No,III,15.65,472.8,Radiation,46,Deceased
+PID_762,41,Male,38.8,Asian,Yes,No,Yes,Yes,No,No,No,9.2,5,No,I,12.7,899.76,Radiation,7,Deceased
+PID_763,54,Male,35.4,Caucasian,Yes,No,No,Yes,Yes,No,Yes,6.9,6.3,No,III,8.48,336.16,Chemotherapy,6,Deceased
+PID_764,81,Female,26.1,Other,Yes,Yes,Yes,No,Yes,No,Yes,1.3,9.8,No,II,5.45,294.32,Chemotherapy,4,Deceased
+PID_765,88,Male,27.4,Hispanic,Yes,Yes,Yes,No,Yes,No,No,3.6,5.8,No,II,17.26,872.8,Radiation,1,Alive
+PID_766,50,Female,30.3,Caucasian,No,No,Yes,Yes,No,Yes,No,5.9,9.1,No,II,14.15,796.99,Radiation,15,Alive
+PID_767,65,Female,36.4,African,No,Yes,No,No,Yes,No,Yes,8.4,1.7,Yes,II,11.18,514.98,Radiation,31,Deceased
+PID_768,82,Male,20,Asian,No,No,Yes,No,No,No,No,0.4,2.7,Yes,II,12.39,130.73,Palliative Care,25,Alive
+PID_769,52,Male,27.6,African,Yes,No,No,Yes,No,No,Yes,2.4,5,No,II,2.28,215.07,Surgery,47,Deceased
+PID_770,45,Male,20.3,Hispanic,No,Yes,No,Yes,Yes,Yes,Yes,8.9,6.3,Yes,II,9.74,656.23,Chemotherapy,33,Deceased
+PID_771,86,Male,29.6,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,0.1,8.3,No,I,4.28,385.04,Surgery,52,Alive
+PID_772,68,Female,37.8,Hispanic,Yes,No,Yes,No,Yes,No,No,2,9.9,Yes,III,4.56,836.47,Chemotherapy,35,Alive
+PID_773,74,Female,35.3,Caucasian,Yes,Yes,No,No,Yes,No,No,9.6,4.5,Yes,I,13.4,949.96,Chemotherapy,55,Alive
+PID_774,82,Male,23.4,Other,Yes,No,No,Yes,No,Yes,No,6.1,1.4,No,I,18.27,805.64,Chemotherapy,5,Alive
+PID_775,71,Female,39.5,Asian,No,No,Yes,Yes,Yes,No,Yes,2.6,8.2,Yes,III,8.37,377.55,Radiation,5,Deceased
+PID_776,87,Female,32.8,Other,Yes,No,Yes,Yes,No,No,Yes,0.7,6.4,No,III,4.55,788.69,Chemotherapy,36,Deceased
+PID_777,68,Female,18.7,Other,No,Yes,No,Yes,No,No,Yes,0.3,2.8,Yes,IV,13.15,351.44,Surgery,17,Deceased
+PID_778,43,Female,24,Hispanic,Yes,No,No,Yes,No,No,No,2.4,5.5,No,II,17.49,167.1,Chemotherapy,53,Alive
+PID_779,60,Male,24.1,Asian,No,Yes,No,No,No,Yes,Yes,8.8,7.7,Yes,II,15.09,33.39,Surgery,52,Deceased
+PID_780,87,Male,20,Caucasian,No,No,No,No,No,Yes,Yes,4.2,7.9,No,III,17.44,385.72,Chemotherapy,14,Alive
+PID_781,34,Female,39.1,Caucasian,No,No,No,No,Yes,Yes,No,7.2,5.5,Yes,III,10.96,903.56,Chemotherapy,58,Deceased
+PID_782,64,Male,28.8,African,No,No,Yes,Yes,No,No,Yes,9.2,3.7,No,II,15.16,238.99,Radiation,29,Deceased
+PID_783,52,Male,37.8,Caucasian,No,No,No,Yes,No,No,Yes,4.1,9.8,Yes,IV,3.23,206.51,Surgery,8,Deceased
+PID_784,58,Male,25.4,Hispanic,No,Yes,No,Yes,Yes,Yes,No,1.9,7,No,I,7.29,969.82,Chemotherapy,34,Deceased
+PID_785,72,Female,21.2,Other,Yes,Yes,Yes,No,Yes,Yes,No,5.2,4.7,Yes,IV,8.1,25,Chemotherapy,40,Alive
+PID_786,40,Female,28.7,Other,No,No,Yes,Yes,No,Yes,Yes,9.1,3.5,No,IV,10.47,785.78,Surgery,1,Alive
+PID_787,47,Female,21,Other,Yes,No,No,Yes,No,No,No,8,7.6,Yes,III,18.62,321.37,Chemotherapy,29,Deceased
+PID_788,76,Male,28.9,Asian,No,No,No,No,Yes,Yes,Yes,0.7,3.2,No,IV,17.55,37.49,Palliative Care,36,Alive
+PID_789,41,Female,38.3,Caucasian,Yes,No,Yes,Yes,No,No,No,6.9,2.5,No,III,3.12,917.8,Radiation,51,Alive
+PID_790,38,Female,29.7,Hispanic,No,No,No,No,Yes,No,Yes,5.7,5.8,No,I,3.87,139.64,Surgery,37,Alive
+PID_791,39,Male,31.8,Asian,No,No,No,Yes,Yes,Yes,No,9.1,3.6,No,II,7.47,551.78,Radiation,29,Alive
+PID_792,87,Female,21.9,African,Yes,No,Yes,Yes,No,Yes,Yes,1.2,6.7,Yes,I,6.17,274.05,Palliative Care,5,Deceased
+PID_793,73,Female,19.4,Hispanic,No,No,No,No,Yes,No,No,5.3,2.1,Yes,II,12.49,65.19,Palliative Care,53,Deceased
+PID_794,46,Male,20.9,Hispanic,No,Yes,Yes,No,No,Yes,No,8.8,6.9,Yes,III,18.1,49.92,Palliative Care,32,Alive
+PID_795,67,Male,31.4,Hispanic,No,Yes,Yes,No,No,Yes,No,4.1,3.5,No,II,19.26,115.56,Surgery,52,Alive
+PID_796,36,Male,20.5,Other,Yes,Yes,Yes,No,No,No,No,4.8,1,No,II,13.25,71.37,Palliative Care,24,Deceased
+PID_797,75,Female,26.6,Hispanic,No,No,Yes,No,Yes,No,No,0.7,2.1,No,III,16.84,760.56,Surgery,19,Deceased
+PID_798,42,Female,30.3,Caucasian,Yes,No,No,No,No,No,No,2.8,9.4,No,IV,10.74,485.57,Surgery,12,Deceased
+PID_799,69,Female,26.9,Hispanic,No,No,Yes,Yes,Yes,No,No,3.2,8.8,No,I,4.56,342.89,Chemotherapy,52,Deceased
+PID_800,71,Male,22,Other,No,Yes,No,Yes,No,No,Yes,9.5,3.1,Yes,II,10.73,418.37,Surgery,1,Deceased
+PID_801,38,Male,24.4,Hispanic,Yes,No,No,No,No,Yes,Yes,2.8,8,Yes,I,11.32,928.95,Palliative Care,7,Deceased
+PID_802,79,Female,38.5,African,No,Yes,No,Yes,Yes,No,No,4.6,6.5,Yes,III,14.98,910.75,Surgery,17,Deceased
+PID_803,56,Female,33,African,No,No,No,No,No,No,No,6.7,9.7,No,I,4.79,715.68,Surgery,34,Alive
+PID_804,87,Male,29.2,Other,Yes,Yes,No,Yes,No,No,Yes,1.6,4.4,No,III,7.68,884.68,Radiation,43,Deceased
+PID_805,31,Male,18.8,Caucasian,No,Yes,Yes,No,Yes,Yes,Yes,4.9,7.1,No,II,7.6,319.65,Palliative Care,7,Alive
+PID_806,34,Male,39.8,Caucasian,Yes,Yes,Yes,Yes,Yes,No,No,7.4,1.6,No,I,19.21,381.11,Surgery,17,Deceased
+PID_807,58,Male,32.9,Asian,Yes,No,Yes,Yes,Yes,No,Yes,8.7,4.6,No,IV,9.16,613.71,Chemotherapy,59,Deceased
+PID_808,66,Female,25.3,Other,Yes,Yes,Yes,Yes,No,No,Yes,6.3,9.7,No,I,15.22,623.63,Surgery,3,Deceased
+PID_809,67,Male,37.4,Hispanic,No,No,No,Yes,Yes,Yes,No,6.7,5.9,No,II,15.14,481.7,Surgery,29,Alive
+PID_810,48,Female,24.1,Other,Yes,No,Yes,Yes,Yes,No,No,1.3,3.6,Yes,I,5.68,400.66,Radiation,22,Deceased
+PID_811,37,Female,30.2,Asian,Yes,No,No,No,No,No,No,9.5,2.1,Yes,II,11.65,986.18,Palliative Care,38,Alive
+PID_812,77,Female,32.2,Other,No,No,No,No,Yes,No,Yes,1.3,7.3,No,III,17.94,821.12,Palliative Care,54,Alive
+PID_813,74,Male,23.3,Other,Yes,No,Yes,No,No,Yes,No,7.7,6.8,No,II,9.77,434.98,Chemotherapy,43,Alive
+PID_814,30,Male,39.5,Asian,No,Yes,Yes,Yes,No,Yes,No,2.6,4.4,No,I,18.93,727.29,Chemotherapy,29,Alive
+PID_815,51,Male,34.6,Caucasian,No,No,Yes,No,Yes,Yes,Yes,9.3,9.6,Yes,II,4.68,269.56,Chemotherapy,50,Deceased
+PID_816,81,Male,30.5,Hispanic,No,No,Yes,Yes,No,Yes,No,7.2,1.2,Yes,III,1.95,100.17,Surgery,50,Deceased
+PID_817,46,Female,22.4,Asian,No,No,No,Yes,Yes,No,Yes,7.5,3.7,No,III,17.88,352.43,Surgery,54,Deceased
+PID_818,36,Male,19.7,African,Yes,No,No,Yes,Yes,No,Yes,2.2,9.3,Yes,III,17.03,402.97,Chemotherapy,42,Deceased
+PID_819,54,Male,25.4,Caucasian,Yes,No,Yes,No,Yes,Yes,Yes,4.4,3.9,Yes,III,19.86,16.54,Palliative Care,5,Alive
+PID_820,74,Female,34.7,African,Yes,Yes,No,Yes,Yes,Yes,Yes,6.2,3.3,Yes,II,13.75,814.79,Palliative Care,30,Deceased
+PID_821,33,Male,24.3,Caucasian,Yes,Yes,No,No,No,No,Yes,7.7,5.8,No,II,18.77,359.19,Chemotherapy,23,Deceased
+PID_822,65,Female,30.1,Hispanic,Yes,No,No,No,No,No,Yes,1,8.4,Yes,I,16.63,580.42,Radiation,55,Deceased
+PID_823,35,Female,34.2,Hispanic,No,Yes,Yes,Yes,Yes,Yes,No,9.6,1.9,Yes,II,16.97,73.96,Palliative Care,21,Deceased
+PID_824,89,Female,20.8,Other,Yes,Yes,No,Yes,Yes,Yes,No,8.9,9.5,No,II,11.6,175,Palliative Care,56,Deceased
+PID_825,60,Female,33.2,African,Yes,No,Yes,No,No,Yes,No,2.7,8.2,No,III,7.96,889.69,Chemotherapy,26,Alive
+PID_826,48,Female,20.5,Caucasian,Yes,Yes,Yes,No,Yes,Yes,Yes,8.2,2.6,Yes,III,18.72,608.69,Palliative Care,54,Alive
+PID_827,73,Female,39.3,Hispanic,No,No,No,No,No,No,No,5.2,7.4,No,IV,8.93,950.28,Surgery,47,Deceased
+PID_828,83,Female,29,Asian,No,Yes,No,No,Yes,Yes,Yes,4.6,4.5,Yes,I,11.01,998.75,Surgery,21,Alive
+PID_829,68,Female,21.7,Hispanic,Yes,Yes,Yes,No,No,Yes,No,3.1,4.6,Yes,III,9.2,371.86,Palliative Care,20,Deceased
+PID_830,56,Male,25.9,Asian,No,Yes,No,No,No,No,Yes,5.8,8,No,IV,11.51,298.8,Surgery,23,Deceased
+PID_831,39,Male,27.4,Caucasian,Yes,No,No,Yes,No,No,No,7.3,9.7,No,III,9.67,858.36,Radiation,4,Deceased
+PID_832,55,Male,34.8,Hispanic,Yes,Yes,Yes,No,Yes,No,Yes,4.1,2.1,Yes,II,1.44,998.61,Palliative Care,21,Deceased
+PID_833,48,Male,34.5,Hispanic,No,Yes,Yes,No,Yes,No,No,6.3,4.8,No,II,17.7,629.64,Chemotherapy,21,Alive
+PID_834,68,Female,31.7,Caucasian,No,No,Yes,No,Yes,No,Yes,7,5.3,No,I,9.17,795.14,Surgery,1,Deceased
+PID_835,32,Male,20.8,Hispanic,Yes,No,Yes,No,Yes,Yes,No,7.1,4.4,Yes,II,11.98,781.75,Radiation,15,Deceased
+PID_836,74,Female,21.8,Asian,Yes,Yes,No,Yes,Yes,Yes,Yes,0.5,4.3,Yes,III,3.21,355.34,Radiation,17,Deceased
+PID_837,42,Male,20.5,Hispanic,No,No,No,Yes,No,Yes,No,8.6,1.5,Yes,I,0.57,574.27,Surgery,51,Deceased
+PID_838,79,Male,30.9,African,Yes,Yes,Yes,No,No,No,No,4.6,7.2,Yes,II,5.28,833.06,Radiation,14,Alive
+PID_839,57,Male,37.4,Other,No,Yes,Yes,No,No,Yes,No,2.6,4.9,Yes,III,14.24,688.11,Palliative Care,59,Deceased
+PID_840,87,Female,27.8,Asian,Yes,No,Yes,No,No,No,Yes,2.4,2.8,Yes,III,2.43,21.16,Radiation,19,Alive
+PID_841,49,Male,22,African,No,No,No,Yes,No,Yes,Yes,4.8,8.3,No,II,18.22,336.71,Surgery,50,Alive
+PID_842,57,Female,30.5,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,8.9,8.2,No,III,4.69,144.48,Radiation,34,Alive
+PID_843,37,Female,36,Asian,Yes,Yes,No,Yes,No,No,Yes,3.8,5.4,Yes,II,4.49,232.97,Surgery,6,Alive
+PID_844,70,Male,34.4,Other,No,No,Yes,Yes,Yes,No,Yes,7.5,3.7,No,I,4.04,905.49,Surgery,45,Alive
+PID_845,68,Male,37.5,Other,Yes,Yes,Yes,Yes,No,Yes,No,1,6.7,No,II,0.77,36.89,Radiation,49,Deceased
+PID_846,30,Male,24.5,Caucasian,Yes,No,Yes,Yes,Yes,Yes,Yes,4.8,3.6,Yes,III,15.55,219.8,Surgery,6,Deceased
+PID_847,32,Female,22.7,Caucasian,No,Yes,No,No,No,Yes,No,9.9,3.1,No,IV,17.56,309.57,Surgery,53,Alive
+PID_848,42,Male,37.4,Asian,Yes,No,No,Yes,No,Yes,No,7.7,7.6,No,I,12.48,616.88,Chemotherapy,54,Alive
+PID_849,57,Female,32.6,Hispanic,Yes,Yes,No,Yes,Yes,Yes,Yes,2.1,1.4,Yes,III,4.17,534.1,Palliative Care,5,Deceased
+PID_850,86,Female,25.2,Caucasian,Yes,No,Yes,No,No,No,No,5,1.9,No,II,6.06,218.27,Surgery,7,Alive
+PID_851,89,Male,34.5,Hispanic,No,Yes,No,Yes,Yes,No,Yes,2.3,1.1,No,III,9.78,164.24,Palliative Care,33,Alive
+PID_852,78,Male,36,African,No,No,No,No,No,No,Yes,4.1,2.4,Yes,I,19.11,236.8,Chemotherapy,13,Deceased
+PID_853,54,Female,31.7,Other,No,No,Yes,Yes,Yes,No,Yes,7.8,1.6,No,II,5.32,502.53,Chemotherapy,51,Deceased
+PID_854,85,Female,33.3,Hispanic,Yes,Yes,Yes,No,No,Yes,No,7.7,10,No,IV,14.77,271.18,Chemotherapy,54,Alive
+PID_855,62,Female,26.6,Other,Yes,No,No,No,Yes,Yes,Yes,2.3,3.6,No,III,9.07,947.6,Chemotherapy,1,Deceased
+PID_856,67,Male,30.1,Hispanic,Yes,Yes,No,No,Yes,No,Yes,9.2,2.3,Yes,II,6.31,463.87,Palliative Care,13,Deceased
+PID_857,82,Female,29.8,African,Yes,Yes,No,No,No,Yes,Yes,5.9,3.2,Yes,II,9.39,58.8,Radiation,43,Alive
+PID_858,35,Male,36.7,Caucasian,No,No,No,No,No,No,No,3.8,9.4,No,II,1.89,729.27,Radiation,27,Deceased
+PID_859,87,Female,36.6,African,Yes,Yes,Yes,Yes,Yes,Yes,Yes,5,5.7,No,II,16.07,328.85,Palliative Care,7,Deceased
+PID_860,73,Female,36.4,Caucasian,Yes,No,Yes,Yes,No,Yes,No,6.1,4.3,Yes,IV,5.24,653.49,Surgery,52,Alive
+PID_861,74,Male,18.7,Caucasian,Yes,No,Yes,No,Yes,Yes,No,5.6,8.9,Yes,IV,14.65,279.59,Palliative Care,3,Alive
+PID_862,61,Female,34.6,Other,No,Yes,No,No,No,No,Yes,4.9,4.6,No,II,1.83,570.74,Surgery,58,Alive
+PID_863,74,Male,34.8,African,Yes,No,No,No,Yes,No,No,5,4,Yes,II,19.12,772.15,Surgery,25,Deceased
+PID_864,76,Male,33.1,Hispanic,Yes,Yes,Yes,Yes,No,No,No,1.8,2.9,No,IV,4.26,928.01,Radiation,33,Alive
+PID_865,50,Female,34.8,African,Yes,Yes,Yes,No,Yes,No,Yes,8.1,4.4,No,II,17.71,261.13,Chemotherapy,40,Deceased
+PID_866,45,Male,36.6,Other,Yes,No,No,No,No,Yes,Yes,5.4,3.9,Yes,III,16.28,334.86,Radiation,17,Alive
+PID_867,83,Male,28.6,Caucasian,Yes,No,No,No,Yes,Yes,Yes,1.3,7.1,Yes,II,19.37,464.27,Radiation,45,Deceased
+PID_868,50,Female,29.3,Other,No,Yes,Yes,No,Yes,Yes,No,7.7,3.6,No,III,9.82,927.17,Palliative Care,14,Deceased
+PID_869,40,Male,21.2,Asian,Yes,Yes,Yes,Yes,No,Yes,Yes,9.3,6.2,No,III,14.68,901.39,Palliative Care,37,Deceased
+PID_870,89,Male,26.8,Asian,Yes,No,Yes,No,No,No,No,9.5,1.6,Yes,IV,7.73,89.88,Surgery,58,Deceased
+PID_871,66,Male,32.3,Hispanic,Yes,No,No,No,Yes,Yes,No,3.7,2.7,No,III,4.1,131.93,Palliative Care,56,Deceased
+PID_872,65,Female,35.3,Other,Yes,No,No,Yes,Yes,Yes,No,1.4,4.7,Yes,II,9.14,495.51,Surgery,54,Deceased
+PID_873,64,Male,23.2,Hispanic,Yes,No,No,No,Yes,Yes,No,5.2,9.4,Yes,III,3.73,106.62,Surgery,23,Alive
+PID_874,48,Female,21.5,Hispanic,Yes,Yes,No,No,Yes,No,No,1.1,4.4,Yes,IV,19.65,345.58,Chemotherapy,59,Deceased
+PID_875,49,Female,32.8,Asian,Yes,No,No,Yes,No,No,Yes,9.3,7,Yes,II,2.38,148.39,Chemotherapy,24,Deceased
+PID_876,86,Male,18.5,Hispanic,Yes,Yes,No,Yes,Yes,No,Yes,1.8,3.3,Yes,I,11.99,636.04,Radiation,29,Alive
+PID_877,47,Male,22.3,Asian,Yes,Yes,Yes,Yes,Yes,Yes,No,2.5,2.1,No,I,12.72,949.5,Chemotherapy,38,Alive
+PID_878,76,Male,19.1,Caucasian,Yes,No,Yes,No,Yes,No,No,4.1,1.5,Yes,II,10.99,996.73,Surgery,59,Deceased
+PID_879,70,Female,22.1,Other,No,Yes,No,No,No,Yes,Yes,3.8,3.7,Yes,II,13.41,375.24,Palliative Care,54,Deceased
+PID_880,78,Male,22.4,Hispanic,No,No,Yes,Yes,Yes,Yes,Yes,7.9,2.4,Yes,III,2.77,599.01,Chemotherapy,27,Deceased
+PID_881,43,Male,26.8,Asian,No,Yes,No,Yes,No,Yes,No,4.6,2.6,Yes,I,11.32,856.27,Chemotherapy,38,Alive
+PID_882,44,Male,27.2,African,No,No,Yes,Yes,No,No,No,1.7,7.8,Yes,IV,6.1,117.46,Chemotherapy,53,Alive
+PID_883,60,Male,37.3,Hispanic,Yes,Yes,No,No,No,No,Yes,2.7,1.1,Yes,II,18.83,689.56,Chemotherapy,40,Deceased
+PID_884,30,Male,29.5,Caucasian,No,Yes,Yes,No,No,Yes,Yes,5.1,6,Yes,II,15.36,408.84,Surgery,45,Alive
+PID_885,82,Female,34.1,Caucasian,No,No,Yes,Yes,No,Yes,No,1.5,4.4,No,II,19.46,206.15,Surgery,50,Alive
+PID_886,83,Female,20.7,African,Yes,No,No,No,No,No,Yes,6.1,5.6,No,II,1.23,402.75,Radiation,23,Deceased
+PID_887,83,Male,23.3,Asian,No,Yes,No,Yes,No,No,Yes,5.7,6.1,No,II,6.06,75.96,Palliative Care,31,Deceased
+PID_888,32,Male,33.6,Hispanic,No,Yes,Yes,No,Yes,No,No,7.1,3.8,No,II,4.31,695.41,Radiation,36,Deceased
+PID_889,45,Male,19.6,Asian,Yes,No,Yes,No,Yes,Yes,No,9.4,3.7,Yes,I,0.72,252.74,Radiation,17,Deceased
+PID_890,52,Male,29,Caucasian,Yes,Yes,No,No,No,Yes,No,9.1,7.6,No,III,5.23,311.41,Chemotherapy,37,Alive
+PID_891,86,Female,31.4,Asian,Yes,No,Yes,No,Yes,Yes,Yes,9.5,8.8,Yes,III,13.74,121.08,Palliative Care,3,Alive
+PID_892,40,Male,31.4,Caucasian,No,Yes,No,Yes,Yes,No,No,2.4,2.7,No,II,5.01,864.66,Chemotherapy,36,Alive
+PID_893,41,Female,19,Asian,No,No,No,No,No,No,Yes,1.3,1.9,No,III,10.43,493.44,Surgery,55,Deceased
+PID_894,39,Female,25.4,African,Yes,Yes,Yes,No,Yes,No,No,3,9.1,Yes,III,17.81,572.15,Radiation,5,Deceased
+PID_895,61,Male,32.2,Other,Yes,No,No,Yes,No,Yes,No,9,4.1,Yes,I,14.03,569.43,Palliative Care,46,Alive
+PID_896,45,Female,21.7,African,No,No,Yes,No,Yes,Yes,Yes,9.7,6,No,IV,8.2,410.49,Surgery,15,Deceased
+PID_897,37,Female,33.5,African,Yes,Yes,Yes,Yes,No,No,Yes,8.6,4.2,No,IV,7.76,192.53,Radiation,52,Alive
+PID_898,67,Female,34.5,Other,No,No,No,Yes,No,Yes,No,1.1,2.1,No,II,9.39,745.13,Palliative Care,49,Deceased
+PID_899,41,Female,39.6,Other,Yes,Yes,Yes,No,Yes,No,No,9.5,6.3,No,I,3.95,127.06,Radiation,6,Deceased
+PID_900,53,Male,23,Hispanic,Yes,No,No,No,Yes,Yes,Yes,4.2,5.7,Yes,I,12.86,103.87,Palliative Care,59,Alive
+PID_901,57,Male,36.2,Hispanic,No,No,No,Yes,No,No,No,0.1,2.8,No,I,7.6,710.15,Radiation,10,Alive
+PID_902,82,Female,29.7,African,Yes,No,No,Yes,No,Yes,Yes,4.4,5.1,No,III,17.12,208.84,Chemotherapy,54,Alive
+PID_903,37,Male,26.5,African,Yes,Yes,Yes,Yes,No,Yes,Yes,0.5,8.2,No,II,15.25,306.77,Radiation,32,Alive
+PID_904,87,Male,21.1,Caucasian,Yes,No,No,No,Yes,No,No,5.4,6.3,No,III,12.41,475.23,Radiation,23,Alive
+PID_905,57,Male,34.3,Caucasian,No,Yes,Yes,Yes,Yes,No,Yes,3.4,1.9,No,III,7.6,449.35,Palliative Care,48,Deceased
+PID_906,65,Male,23.6,Hispanic,Yes,No,No,Yes,Yes,No,Yes,4.7,5.9,Yes,III,4.59,708.58,Palliative Care,17,Alive
+PID_907,55,Male,26.5,Hispanic,Yes,Yes,No,Yes,Yes,No,Yes,6.1,7.3,Yes,III,15.63,623.43,Chemotherapy,46,Deceased
+PID_908,37,Female,19.8,Caucasian,Yes,Yes,No,No,No,No,No,8.7,8.1,Yes,I,9.98,644.4,Palliative Care,20,Alive
+PID_909,87,Male,35.7,Caucasian,Yes,Yes,Yes,Yes,No,Yes,Yes,6.6,6.7,Yes,II,4.88,714.05,Radiation,44,Alive
+PID_910,89,Male,35,Asian,Yes,No,Yes,No,No,No,No,4.3,2.4,Yes,III,4.31,292.61,Palliative Care,41,Alive
+PID_911,79,Male,34.3,Asian,Yes,Yes,No,No,No,No,No,8.2,7.4,No,I,3.73,322.33,Palliative Care,15,Deceased
+PID_912,57,Male,24.9,Caucasian,No,No,No,Yes,Yes,No,No,9.1,7.1,Yes,I,15.65,438,Palliative Care,44,Deceased
+PID_913,57,Female,22.2,Asian,No,Yes,Yes,No,No,Yes,Yes,1.2,1.2,Yes,IV,4.97,307.46,Chemotherapy,46,Deceased
+PID_914,66,Female,32.2,Other,Yes,Yes,Yes,Yes,No,No,Yes,5.3,4.7,No,III,10.77,984.94,Chemotherapy,58,Deceased
+PID_915,70,Female,29.2,Hispanic,No,Yes,Yes,No,Yes,No,No,2.8,4,Yes,II,9.31,814.05,Surgery,22,Deceased
+PID_916,65,Female,22.3,Hispanic,No,Yes,No,No,Yes,No,No,0.5,7,Yes,III,11.8,164.65,Chemotherapy,50,Deceased
+PID_917,56,Male,33.2,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,6.7,2.9,Yes,III,17.6,5.59,Chemotherapy,52,Alive
+PID_918,83,Female,39.8,African,No,Yes,No,Yes,Yes,Yes,No,8.6,6.3,Yes,II,17.42,42.78,Chemotherapy,6,Deceased
+PID_919,46,Male,34.6,Caucasian,No,Yes,Yes,Yes,No,No,No,1.6,9.2,No,I,9.3,244.06,Radiation,4,Deceased
+PID_920,38,Male,34.4,Asian,No,No,No,No,Yes,Yes,Yes,8.1,8.2,No,IV,0.8,114.29,Surgery,58,Deceased
+PID_921,62,Male,38.9,African,No,Yes,No,No,Yes,No,No,8.5,9.3,Yes,II,8.82,533.34,Radiation,23,Alive
+PID_922,82,Male,22.9,Asian,No,Yes,No,Yes,No,Yes,Yes,9.1,9.8,No,I,12.32,858,Chemotherapy,44,Deceased
+PID_923,49,Male,30.7,Other,No,Yes,Yes,Yes,Yes,No,Yes,2.7,1.1,Yes,II,11.38,736.75,Chemotherapy,45,Alive
+PID_924,42,Female,39.6,Asian,No,Yes,Yes,No,No,Yes,No,9,6.6,No,III,13.2,215.61,Surgery,19,Alive
+PID_925,57,Female,22.1,Other,No,No,Yes,No,Yes,No,Yes,3.2,4.7,No,II,3.5,399.3,Surgery,54,Deceased
+PID_926,77,Female,33.6,Other,Yes,No,No,No,Yes,No,Yes,5.5,8.7,No,II,13.11,507.89,Palliative Care,45,Deceased
+PID_927,58,Female,31.1,Asian,Yes,Yes,No,Yes,Yes,Yes,Yes,0.5,3.3,No,II,4.06,810.21,Chemotherapy,31,Deceased
+PID_928,42,Male,31.1,Asian,No,No,Yes,No,Yes,No,No,0.4,9.8,No,IV,15.14,839.12,Chemotherapy,44,Deceased
+PID_929,75,Female,33.5,Other,No,No,No,Yes,Yes,No,No,7.2,6.5,No,I,7.11,909.72,Radiation,52,Alive
+PID_930,64,Male,38.5,African,Yes,Yes,No,No,No,No,No,4.4,8.1,No,III,14.34,509.25,Palliative Care,3,Alive
+PID_931,35,Female,35.3,Other,No,No,No,No,Yes,No,Yes,2.6,1.8,No,IV,1.43,694.27,Chemotherapy,28,Deceased
+PID_932,47,Male,19.7,Hispanic,No,Yes,Yes,Yes,No,Yes,Yes,1.9,2.7,No,I,8.45,111.8,Radiation,3,Alive
+PID_933,80,Male,36.8,Other,Yes,No,No,Yes,Yes,No,No,6.7,7.8,No,IV,14.25,565.29,Surgery,14,Deceased
+PID_934,34,Female,23.3,African,Yes,No,Yes,Yes,No,Yes,No,0,1.2,No,IV,4.92,248.69,Radiation,18,Alive
+PID_935,76,Male,26.6,Hispanic,Yes,No,Yes,No,Yes,Yes,Yes,8.1,8.4,Yes,IV,16.01,431.72,Chemotherapy,27,Deceased
+PID_936,54,Male,28.4,Caucasian,No,Yes,Yes,No,No,Yes,No,0.8,1.1,No,II,12.8,634.05,Radiation,51,Deceased
+PID_937,31,Female,28.8,Caucasian,No,No,Yes,No,No,Yes,No,1.9,6.9,Yes,III,11.96,256.99,Radiation,10,Alive
+PID_938,39,Male,27.9,African,Yes,Yes,Yes,Yes,Yes,No,No,3.9,4.3,No,III,7.39,52.19,Palliative Care,49,Deceased
+PID_939,85,Female,38.7,Other,Yes,Yes,No,No,Yes,No,No,4.8,6.5,Yes,IV,9.91,10.23,Palliative Care,15,Deceased
+PID_940,59,Female,33.7,Asian,No,No,Yes,Yes,Yes,Yes,No,3.5,7.3,Yes,I,12.15,22.16,Surgery,19,Deceased
+PID_941,79,Female,32.1,African,Yes,Yes,Yes,Yes,No,No,Yes,3.2,4.1,Yes,III,9.71,8.35,Palliative Care,9,Deceased
+PID_942,88,Male,19.6,Hispanic,No,No,Yes,Yes,No,Yes,No,9.6,2,No,II,14.12,110.36,Radiation,4,Alive
+PID_943,74,Male,37.9,Hispanic,No,Yes,No,No,Yes,No,No,6.4,1.6,No,I,8.96,239.49,Palliative Care,15,Deceased
+PID_944,34,Male,38.1,Caucasian,Yes,Yes,No,No,Yes,No,Yes,0.2,6.3,No,II,4.44,221.22,Chemotherapy,51,Alive
+PID_945,84,Female,35.3,Hispanic,Yes,No,No,Yes,No,No,Yes,4.3,5.7,No,III,4.67,986.8,Radiation,48,Alive
+PID_946,85,Male,18.7,African,No,No,No,No,No,Yes,Yes,8.8,7.7,Yes,II,0.61,306.01,Radiation,8,Deceased
+PID_947,62,Female,19.7,Hispanic,Yes,No,Yes,Yes,Yes,Yes,Yes,3,5.6,No,III,6.37,127.42,Radiation,49,Deceased
+PID_948,83,Female,23.3,African,Yes,No,Yes,Yes,No,No,No,0.9,4.8,No,IV,15.1,545.56,Chemotherapy,53,Alive
+PID_949,30,Male,21.3,Asian,Yes,Yes,No,No,Yes,Yes,No,7.6,4.6,No,II,15.99,857.96,Radiation,1,Deceased
+PID_950,47,Female,27.1,Caucasian,Yes,Yes,No,Yes,Yes,Yes,No,6.1,1.2,No,III,4.45,678.06,Palliative Care,7,Deceased
+PID_951,61,Male,38.3,Hispanic,No,Yes,No,Yes,Yes,No,No,5.7,4,No,II,19.2,296.08,Chemotherapy,53,Alive
+PID_952,76,Male,28.6,African,No,No,No,No,No,Yes,Yes,0.5,9.8,No,II,10.3,561.62,Radiation,31,Alive
+PID_953,78,Male,18.8,Other,No,Yes,Yes,Yes,No,No,Yes,1.4,8.9,No,III,18.38,714.86,Palliative Care,18,Deceased
+PID_954,40,Male,24.6,Caucasian,No,No,No,Yes,No,No,No,6.2,4,No,IV,14.28,728.1,Palliative Care,12,Alive
+PID_955,50,Male,19.5,Asian,Yes,Yes,No,Yes,No,No,No,2.1,6.3,Yes,III,14.59,666.54,Surgery,48,Alive
+PID_956,55,Female,19.3,African,Yes,No,No,Yes,Yes,Yes,No,5,8.6,Yes,III,2.16,870.81,Palliative Care,30,Deceased
+PID_957,54,Female,24.4,Asian,No,Yes,No,Yes,No,No,No,5.4,5,No,I,4.79,870.11,Palliative Care,33,Alive
+PID_958,51,Female,24.4,Asian,No,Yes,No,Yes,Yes,No,Yes,2.8,1.2,No,II,0.67,578.94,Surgery,59,Deceased
+PID_959,88,Male,35.4,Hispanic,Yes,No,No,Yes,Yes,Yes,No,9.5,1.7,No,III,14.46,429.86,Surgery,47,Deceased
+PID_960,56,Male,39.5,Hispanic,No,Yes,No,No,Yes,Yes,Yes,8.4,5.6,No,I,7.22,641.57,Chemotherapy,7,Deceased
+PID_961,78,Male,26.5,African,No,No,Yes,No,No,Yes,Yes,7.2,9.7,Yes,II,15.84,818.21,Palliative Care,28,Deceased
+PID_962,42,Female,27.7,Other,Yes,Yes,Yes,Yes,Yes,Yes,Yes,0.8,7.2,Yes,III,7.11,5.65,Chemotherapy,49,Deceased
+PID_963,62,Male,36.7,African,No,Yes,Yes,Yes,Yes,No,Yes,1.1,1.6,No,I,16.48,992,Chemotherapy,3,Alive
+PID_964,63,Female,24.3,Other,Yes,No,Yes,No,No,Yes,No,4.9,2.7,Yes,II,3.05,182.89,Radiation,43,Alive
+PID_965,70,Female,21.9,Asian,Yes,No,Yes,No,Yes,Yes,No,1.6,7.9,Yes,III,3.88,470.25,Chemotherapy,6,Deceased
+PID_966,64,Male,36.8,Caucasian,No,Yes,Yes,No,No,Yes,No,9.8,8.6,No,III,7.15,872.03,Chemotherapy,31,Alive
+PID_967,30,Male,19.5,African,Yes,Yes,No,No,No,Yes,No,1.6,6.6,No,IV,8.47,225.04,Chemotherapy,38,Alive
+PID_968,50,Female,31.8,African,No,Yes,No,No,No,No,Yes,4.9,6.8,No,III,7.3,476.8,Chemotherapy,15,Deceased
+PID_969,77,Male,30.6,Other,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3.6,1.3,Yes,II,15.39,132.58,Surgery,7,Deceased
+PID_970,84,Female,25.9,Asian,No,Yes,No,No,No,No,Yes,6.4,8.5,Yes,IV,2.39,395.08,Palliative Care,43,Alive
+PID_971,35,Male,25.3,Asian,No,Yes,Yes,No,No,Yes,No,1.3,8.1,No,III,7.35,177.14,Radiation,30,Alive
+PID_972,57,Male,35.1,Other,No,No,No,No,No,No,Yes,4.3,3.3,No,II,16.83,363.63,Surgery,27,Deceased
+PID_973,46,Female,20.4,Asian,Yes,No,No,Yes,No,No,Yes,2.7,7.4,Yes,I,1.8,373.46,Radiation,17,Deceased
+PID_974,34,Male,23.6,Hispanic,Yes,No,No,Yes,Yes,Yes,Yes,8.9,2.9,Yes,III,18.88,993.17,Radiation,55,Alive
+PID_975,60,Female,34.2,Caucasian,No,Yes,No,Yes,No,No,Yes,0.4,1.4,No,III,19.73,994.81,Surgery,18,Alive
+PID_976,34,Male,30.3,African,Yes,Yes,No,Yes,Yes,Yes,No,9.1,2.8,Yes,III,2.23,114.79,Chemotherapy,22,Deceased
+PID_977,67,Female,21.3,Caucasian,No,Yes,No,Yes,No,No,Yes,8.3,2.6,No,III,6.18,725.97,Surgery,56,Deceased
+PID_978,32,Female,37.5,African,No,No,Yes,Yes,Yes,No,Yes,3,4,No,III,7.76,51.75,Radiation,53,Deceased
+PID_979,82,Male,27,Hispanic,Yes,No,Yes,No,No,No,No,7.9,4.8,Yes,IV,15.64,30.19,Radiation,26,Alive
+PID_980,52,Female,36.3,Asian,No,Yes,No,Yes,Yes,Yes,No,0.3,5.6,Yes,III,12.12,105.33,Chemotherapy,51,Deceased
+PID_981,66,Male,35.4,Other,Yes,Yes,Yes,Yes,No,No,No,9.7,5.3,Yes,I,13.07,965.49,Surgery,27,Deceased
+PID_982,82,Male,31.9,Hispanic,No,No,No,No,Yes,Yes,Yes,5.3,3.4,No,IV,15.27,940.86,Palliative Care,40,Alive
+PID_983,66,Male,29.1,Caucasian,Yes,No,Yes,Yes,Yes,No,Yes,3,1.3,No,II,2.8,193.93,Radiation,24,Alive
+PID_984,39,Female,39.6,Other,No,No,No,No,Yes,No,Yes,3.6,6.4,No,III,16.75,161.67,Surgery,52,Alive
+PID_985,39,Female,21.6,Asian,No,Yes,Yes,No,No,No,Yes,0.7,4.6,No,IV,14.26,240.54,Chemotherapy,8,Deceased
+PID_986,48,Male,34.1,Hispanic,Yes,Yes,No,Yes,Yes,No,No,9.9,3.7,No,III,11.76,515.55,Chemotherapy,21,Deceased
+PID_987,46,Male,22.6,Other,No,Yes,Yes,No,Yes,No,Yes,0.4,8.8,No,III,17.85,569.7,Palliative Care,29,Deceased
+PID_988,50,Female,25.8,Hispanic,No,No,No,No,Yes,No,Yes,6.5,7.7,Yes,II,14.16,221.59,Radiation,43,Deceased
+PID_989,43,Male,25.1,Hispanic,Yes,No,Yes,No,Yes,Yes,No,4.4,8.7,No,II,4.43,756.62,Palliative Care,21,Deceased
+PID_990,38,Male,38.9,Asian,No,Yes,No,No,No,Yes,No,9.5,5.5,No,II,8.88,309.55,Palliative Care,3,Deceased
+PID_991,75,Female,39.3,African,Yes,Yes,No,Yes,Yes,Yes,No,2.5,2.2,No,III,10.13,922.13,Palliative Care,31,Alive
+PID_992,30,Male,22.4,Other,No,No,No,No,Yes,No,Yes,5.3,7.3,No,III,1.58,656.72,Palliative Care,55,Alive
+PID_993,80,Female,19,Asian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,4.8,2.9,Yes,III,19.12,436.35,Chemotherapy,27,Deceased
+PID_994,74,Male,34,Hispanic,No,No,Yes,No,No,No,Yes,7,5,No,I,3.01,789.91,Radiation,46,Alive
+PID_995,42,Female,27.5,Asian,No,No,Yes,No,Yes,Yes,Yes,0.7,1.6,Yes,II,14.1,817.91,Palliative Care,27,Deceased
+PID_996,33,Male,20.4,African,No,Yes,No,No,Yes,Yes,Yes,1.9,8.4,Yes,III,10.37,290.48,Radiation,9,Alive
+PID_997,30,Male,33.2,Other,Yes,No,Yes,Yes,Yes,No,No,2.1,2.1,No,II,1,339.71,Chemotherapy,57,Alive
+PID_998,78,Female,30.2,African,Yes,Yes,No,Yes,Yes,No,No,7.4,9.1,No,III,18.53,935.96,Chemotherapy,33,Deceased
+PID_999,69,Male,39.6,Caucasian,Yes,No,Yes,Yes,No,Yes,Yes,1.9,8.8,Yes,III,17.11,164.74,Surgery,33,Deceased
+PID_1000,61,Female,23.4,Other,Yes,No,Yes,No,Yes,Yes,Yes,5.7,5.2,Yes,III,10.72,42.15,Surgery,26,Deceased
